@@ -1,0 +1,20 @@
+[project]
+name = "pedestrian-signals"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Michał Bortkiewicz", email = "122119905+MichalJaroslawBortkiewicz@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "commitizen>=4.17.1",
+    "rich>=15.0.0",
+]
+
+[project.scripts]
+pedestrian-signals = "pedestrian_signals:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
