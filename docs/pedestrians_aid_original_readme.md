@@ -1,92 +1,95 @@
-# Pedestrians Aid — pierwszy model detekcji
+# Pedestrians Aid: first detection model
 
-Aktualny zakres: ramki przejść i sygnalizatorów dla pieszych z osobnymi klasami stanu.
-Anotacja ręczna w Label Studio.
+English translation of the README imported from the original repository.
+Environment and hard-link descriptions below refer to that original repository.
+See `IMPORTED_WORK.md` for setup after migration.
 
-## Pliki
+Current scope: bounding boxes for crosswalks and pedestrian signals, with separate state classes.
+Manual annotation in Label Studio.
 
-- `data/raw/images/`: oryginalne 169 JPG i 15 MP4; do Label Studio importuj JPG.
-- `configs/label_studio.xml`: wklej w Settings → Labeling Interface → Code.
-- `docs/ANNOTATION_GUIDE.md`: zasady oznaczania i eksportu.
-- `data/exports/label_studio/`: miejsce na eksporty YOLO oraz JSON.
-- `data/dataset/`: ręczne anotacje z projektu PNW, 115 zdjęć train i 37 val.
-- `configs/classes.yaml`: definicje klas nowego treningu.
-- `weights/yolov8n.pt`: zachowane wagi bazowe detektora.
-- `docs/SPECIFICATION.md`: pierwotna, szersza specyfikacja; nie definiuje zakresu dzisiejszego PoC.
+## Files
 
-## Kolejność pracy
+- `data/raw/images/`: 169 original JPG images and 15 MP4 videos. Import JPGs into Label Studio.
+- `configs/label_studio.xml`: paste into Settings > Labeling Interface > Code.
+- `docs/ANNOTATION_GUIDE.md`: annotation and export rules.
+- `data/exports/label_studio/`: YOLO and JSON export directory.
+- `data/dataset/`: manual annotations from the PNW project, 115 train images and 37 val images.
+- `configs/classes.yaml`: class definitions for the new training run.
+- `weights/yolov8n.pt`: preserved base detector weights.
+- `docs/SPECIFICATION.md`: original broader specification, which does not define the current PoC scope.
 
-1. Wklej konfigurację XML do projektu Label Studio i zaimportuj JPG.
-2. Oznacz zdjęcia według instrukcji.
-3. Eksportuj YOLO oraz JSON. Sprawdź mapowanie klas eksportu.
-4. Podziel dane według skrzyżowania/sesji. Umieść zdjęcia w
-   `data/dataset/images/{train,val}` i etykiety w `data/dataset/labels/{train,val}`.
-   Eksport sam nie tworzy tego podziału.
-5. Z katalogu projektu uruchom:
+## Workflow
 
-```powershell
+1. Paste the XML configuration into the Label Studio project and import JPG files.
+2. Annotate images according to the guide.
+3. Export YOLO and JSON. Check the export's class mapping.
+4. Split data by intersection or session. Place images in `data/dataset/images/{train,val}`
+   and labels in `data/dataset/labels/{train,val}`. The export does not create this split.
+5. Run from the project directory:
+
+```sh
 python scripts/train_yolo.py --epochs 60 --batch 8 --imgsz 640
 ```
 
-Augmentacje działają podczas treningu razem z ramkami. Zmiana odcienia jest wyłączona.
+Training augmentation transforms images and boxes together. Hue shifts are disabled.
 
-## Przygotowany zbiór i pierwszy trening
+## Prepared dataset and first training run
 
-`scripts/prepare_label_studio_dataset.py` odczytuje wyłącznie anotacje i dane z lokalnej
-bazy w trybie read-only. Wybiera najnowszą zatwierdzoną, nieanulowaną anotację zadania
-z ramkami i zapisuje jej kopię JSON w `data/exports/label_studio/annotated_tasks_snapshot.json`.
-Nie czyta poświadczeń i nie zmienia Label Studio.
+`scripts/prepare_label_studio_dataset.py` reads annotations and local database data
+in read-only mode. It selects the latest approved, non-cancelled bounding-box annotation
+for each task and saves a JSON copy in `data/exports/label_studio/annotated_tasks_snapshot.json`.
+It does not read credentials or modify Label Studio.
 
-Wybrano 152 zdjęcia z obiektami; pozostałe 17 nie ma zatwierdzonych anotacji.
-Podział jest zapisany w `data/dataset/split_manifest.json`, a walidacja geometrii,
-liczby klas i kontrola duplikatów w `data/dataset/preparation_report.json`.
-Całe nagranie żółtego przejścia (2026-08-16) i UUID-owe zdjęcie tej lokalizacji
-trafiły do val. Serie centrum miasta pozostają razem w train, również między kamerami.
-To konserwatywny podział po lokalizacji, ustalony na podstawie wizualnego przeglądu.
-Walidacja obejmuje jedną lokalizację; nie ma jeszcze osobnego finalnego testu.
+The selection includes 152 images containing objects. The other 17 have no approved annotations.
+The split is recorded in `data/dataset/split_manifest.json`. Geometry checks, class counts
+and duplicate checks are in `data/dataset/preparation_report.json`.
+The whole yellow-crossing recording from 2026-08-16 and the UUID-named image of that location
+were assigned to val. City-center sequences remain together in train, including across cameras.
+This is a conservative location-based split established by visual review.
+Validation covers one location. There is no separate final test yet.
 
-Preprocessing: RGB, najdłuższy bok maksymalnie 1920 px, zachowane proporcje,
-brak kadrowania i zmiany odcienia. Ramki znormalizowane pozostają zgodne ze zdjęciami.
-Skrypt odmawia nadpisania istniejącego zbioru, aby chronić podział i etykiety.
+Preprocessing: RGB, longest side at most 1920 px, preserved aspect ratio,
+no cropping or hue shifts. Normalized boxes remain aligned with the images.
+The script refuses to overwrite an existing dataset to protect the split and labels.
 
-```powershell
+```sh
 python scripts/train_yolo.py --epochs 80 --patience 25 --batch 4 --imgsz 960 --device 0 --name manual_scene_split_v1_batch4
 ```
 
-Augmentacje wyłącznie train: obrót ±5°, translacja 5%, skala 0.8–1.2,
-umiarkowana jasność/nasycenie. Wyłączone: zmiana odcienia, odbicia, mosaic,
-mixup i opcjonalny pakiet augmentacji Albumentations (w tym grayscale).
-Trening używa pretrained YOLOv8n, RTX 4060 i seed 42.
-Klasa `traffic_light_unknown` nie ma żadnych przykładów i nie może być oceniona.
-Zbiór z samymi pozytywnymi zdjęciami nie pozwala ocenić fałszywych alarmów na pustych scenach.
+Training-only augmentations: rotation +/-5 degrees, translation 5%, scale 0.8-1.2,
+moderate brightness/saturation. Hue shifts, flips, mosaic, mixup and optional
+Albumentations augmentations, including grayscale, are disabled.
+Training uses pretrained YOLOv8n, an RTX 4060 and seed 42.
+`traffic_light_unknown` has no examples and cannot be assessed.
+A positive-only dataset cannot evaluate false alarms on empty scenes.
 
-## Porządki 2026-10-14
+## Cleanup on 2026-10-14
 
-Stary edytor, pseudoetykiety, poprzednie zbiory, wyniki treningów, modele segmentacji
-oraz YOLO-World i stary dziennik eksperymentów są w `archive/legacy_2026-10-14/`.
-Zachowano tam również poprzedni README, konfigurację dziewięciu klas i skrypt treningowy.
-Archiwum jest lokalne i ignorowane przez Git. Nie kopiuj starych etykiet do nowego zbioru:
-nie odpowiadają nowej definicji klas.
+The old editor, pseudo-labels, previous datasets, training results, segmentation models,
+YOLO-World and the old experiment log are in `archive/legacy_2026-10-14/`.
+The previous README, nine-class configuration and training script are preserved there too.
+The archive is local and ignored by Git. Do not copy old labels into the new dataset
+because they do not match the new class definitions.
 
-Pozostawiono narzędzia pobierania i konwersji. Konwersję orientacji/formatu wykonuj
-przed anotacją, nie na zdjęciach z gotowymi ramkami.
+Download and conversion tools were retained. Convert orientation and format before annotation,
+not on images with completed boxes.
 
-## Lokalne Label Studio
+## Local Label Studio
 
-Uruchomienie z katalogu projektu:
+Run from the project directory:
 
-```powershell
-powershell -ExecutionPolicy Bypass -File scripts/start_label_studio.ps1
+```sh
+python scripts/start_label_studio.py
 ```
 
-Adres: http://localhost:8080. Pierwszy start wymaga utworzenia lokalnego konta.
-Aplikacja jest zainstalowana w `.venv-label-studio/`; jej baza i pliki projektów
-są w `.label-studio/`. Zachowaj ten folder — zawiera anotacje zapisane w aplikacji.
-Dostęp do lokalnych plików jest ograniczony do `data/raw/images/`.
+Address: http://localhost:8080. Initial setup requires a local account.
+The application is installed in `.venv-label-studio/`. Its database and project files
+are in `.label-studio/`. Preserve that directory because it contains saved annotations.
+Local file access is restricted to `data/raw/images/`.
 
-Do projektu Label Studio `PNW` zaimportowano 169 zdjęć: pierwsze 20 przez upload,
-pozostałe 149 przez Local Files source storage `Raw photos`.
-Folder `data/raw/images/label_studio/` zawiera dowiązania twarde do tych 149 JPG;
-nie przenoś go ani nie modyfikuj zdjęć po anotacji. Dowiązania współdzielą zawartość
-z oryginałami i nie zajmują dodatkowego miejsca na kopie obrazów.
-Nie importuj ponownie przygotowanych JSON-ów do tego samego projektu — utworzyłoby to duplikaty.
+The PNW project received 169 images: the first 20 through upload and the remaining 149
+through the `Raw photos` Local Files source storage.
+In the original repository, `data/raw/images/label_studio/` contains hard links to those
+149 JPGs. Do not move it or modify images after annotation. Hard links share the originals'
+contents and do not require additional image-copy storage.
+Do not reimport the prepared JSON files into the same project because this would create duplicates.

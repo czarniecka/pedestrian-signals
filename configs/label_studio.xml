@@ -1,6 +1,6 @@
 <View>
-  <Header value="Przejścia i sygnalizatory dla pieszych — ramki"/>
-  <Header value="Światło: cała głowica bez słupa. Przejście: wszystkie pasy w jednej ramce. Nie zgaduj stanu."/>
+  <Header value="Crosswalks and pedestrian signals: bounding boxes"/>
+  <Header value="Signal: entire head without the pole. Crosswalk: all stripes in one box. Do not guess the state."/>
   <Image name="image" value="$image" zoom="true" zoomControl="true"/>
   <RectangleLabels name="label" toName="image">
     <Label value="crosswalk" category="0" background="#2563EB" hotkey="1"/>

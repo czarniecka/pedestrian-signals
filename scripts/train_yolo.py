@@ -1,9 +1,9 @@
-"""
-Skrypt do trenowania / fine-tuningu modelu YOLO na przygotowanym zbiorze danych
-(Bounding Boxy: przejścia oraz stany sygnalizatorów dla pieszych).
+"""Train or fine-tune YOLO on the prepared bounding-box dataset.
 
-Użycie:
-  python scripts/train_yolo.py --epochs 50 --batch 16 --imgsz 640 --model yolov8n.pt
+Targets are crosswalks and pedestrian signal states.
+
+Usage:
+    python scripts/train_yolo.py --epochs 50 --batch 16 --imgsz 640 --model yolov8n.pt
 """
 
 import argparse
@@ -31,36 +31,36 @@ def disable_optional_color_transforms(trainer):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Trening modelu YOLO dla projektu Pedestrians Aid")
+    parser = argparse.ArgumentParser(description="Train a YOLO model for Pedestrians Aid")
     parser.add_argument(
         "--model",
         type=str,
         default=str(PROJECT_ROOT / "weights" / "yolov8n.pt"),
-        help="Model bazowy do transfer learningu (np. yolov8n.pt, yolo11n.pt, yolov8s.pt)"
+        help="Base model for transfer learning (e.g. yolov8n.pt, yolo11n.pt, yolov8s.pt)"
     )
     parser.add_argument(
         "--epochs",
         type=int,
         default=50,
-        help="Liczba epok treningowych (domyślnie 50)"
+        help="Number of training epochs (default: 50)"
     )
     parser.add_argument(
         "--batch",
         type=int,
         default=16,
-        help="Rozmiar batcha (domyślnie 16)"
+        help="Batch size (default: 16)"
     )
     parser.add_argument(
         "--imgsz",
         type=int,
         default=640,
-        help="Rozmiar wejściowy obrazu (domyślnie 640)"
+        help="Input image size (default: 640)"
     )
     parser.add_argument(
         "--device",
         type=str,
         default="0",
-        help="Identyfikator urządzenia GPU (0 dla CUDA, lub 'cpu')"
+        help="Compute device (0 for CUDA, or 'cpu')"
     )
 
     parser.add_argument('--patience', type=int, default=25)
@@ -78,16 +78,16 @@ def main():
         if not image_dir.exists() or not any(
             p.is_file() and p.suffix.lower() in image_extensions for p in image_dir.iterdir()
         ):
-            parser.error(f"Brak zdjęć w {image_dir}. Przygotuj eksport Label Studio i podział train/val.")
+            parser.error(f"No images in {image_dir}. Prepare a Label Studio export and train/val split.")
 
     resolved_config = PROJECT_ROOT / "runs" / "dataset_resolved.yaml"
     resolved_config.parent.mkdir(parents=True, exist_ok=True)
     resolved_config.write_text(yaml.safe_dump(data_config, sort_keys=False), encoding="utf-8")
 
-    print(f"[*] Rozpoczynanie treningu...")
-    print(f" - Model bazowy: {args.model}")
-    print(f" - Konfiguracja: {CONFIG_FILE.resolve()}")
-    print(f" - Epoki: {args.epochs}, Batch: {args.batch}, ImgSz: {args.imgsz}")
+    print(f"[*] Starting training...")
+    print(f" - Base model: {args.model}")
+    print(f" - Configuration: {CONFIG_FILE.resolve()}")
+    print(f" - Epochs: {args.epochs}, Batch: {args.batch}, ImgSz: {args.imgsz}")
 
     model = YOLO(args.model)
     model.add_callback('on_pretrain_routine_end', disable_optional_color_transforms)
@@ -139,8 +139,8 @@ def main():
     (Path(model.trainer.save_dir) / 'experiment_summary.json').write_text(
         json.dumps(summary, indent=2), encoding='utf-8')
 
-    print("\n[OK] Trening zakończony!")
-    print(f"Najlepsze wagi zapisano w: {model.trainer.best if hasattr(model, 'trainer') else 'runs/train/pedestrians_aid_yolo/weights/best.pt'}")
+    print("\n[OK] Training complete!")
+    print(f"Best weights saved to: {model.trainer.best if hasattr(model, 'trainer') else 'runs/train/pedestrians_aid_yolo/weights/best.pt'}")
 
 
 if __name__ == "__main__":

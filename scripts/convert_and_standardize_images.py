@@ -1,14 +1,14 @@
-"""
-Skrypt do standaryzacji i konwersji zdjęć w projekcie Pedestrians Aid:
-1. Konwertuje formaty Apple iPhone (.heic, .HEIC, .heif) do zunifikowanego formatu .jpg (RGB).
-2. Automatycznie koryguje rotację zdjęć na podstawie metadanych EXIF (zapobiega obróconym zdjęciom z telefonu).
-3. Ignoruje pliki wideo (.mov, .mp4, itp.) lub opcjonalnie wyciąga z nich klatki (np. 1 klatka co X sekund).
-4. Unifikuje nazewnictwo i czyści niekompatybilne formaty.
+"""Standardize image formats and orientation for Pedestrians Aid.
 
-Użycie:
-  python scripts/convert_and_standardize_images.py --input data/raw/images
-  python scripts/convert_and_standardize_images.py --input data/raw/images --delete-originals
-  python scripts/convert_and_standardize_images.py --input data/raw/images --extract-video-fps 1.0
+1. Convert iPhone HEIC/HEIF and other supported images to RGB JPEG.
+2. Apply EXIF orientation metadata.
+3. Skip videos or optionally extract frames at the requested rate.
+4. Use consistent filenames and optionally remove converted originals.
+
+Usage:
+    python scripts/convert_and_standardize_images.py --input data/raw/images
+    python scripts/convert_and_standardize_images.py --input data/raw/images --delete-originals
+    python scripts/convert_and_standardize_images.py --input data/raw/images --extract-video-fps 1.0
 """
 
 import argparse
@@ -20,7 +20,7 @@ import pillow_heif
 import cv2
 from tqdm import tqdm
 
-# Rejestracja obsługi formatu HEIF/HEIC w Pillow
+# Register HEIF/HEIC support in Pillow
 pillow_heif.register_heif_opener()
 
 IMAGE_EXTENSIONS_TO_CONVERT = {".heic", ".heif", ".png", ".webp", ".bmp", ".tiff", ".jpeg"}
@@ -29,7 +29,7 @@ VIDEO_EXTENSIONS = {".mov", ".mp4", ".avi", ".mkv", ".m4v", ".3gp"}
 
 
 def fix_image_orientation(img: Image.Image) -> Image.Image:
-    """Koryguje orientację zdjęcia z metadanych EXIF."""
+    """Apply image orientation from EXIF metadata."""
     try:
         return ImageOps.exif_transpose(img)
     except Exception:
@@ -37,7 +37,7 @@ def fix_image_orientation(img: Image.Image) -> Image.Image:
 
 
 def convert_image_to_jpg(source_path: Path, target_path: Path, quality: int = 95) -> bool:
-    """Konwertuje dowolny format obrazu (w tym HEIC) na standardowy JPEG w przestrzeni RGB."""
+    """Convert an image, including HEIC, to a standard RGB JPEG."""
     try:
         with Image.open(source_path) as img:
             img = fix_image_orientation(img)
@@ -49,18 +49,18 @@ def convert_image_to_jpg(source_path: Path, target_path: Path, quality: int = 95
             img.save(target_path, "JPEG", quality=quality)
             return True
     except Exception as e:
-        print(f"\n[!] Błąd konwersji {source_path.name}: {e}")
+        print(f"\n[!] Conversion failed for {source_path.name}: {e}")
         return False
 
 
 def extract_frames_from_video(video_path: Path, output_dir: Path, fps_sample: float = 1.0) -> int:
     """
-    Opcjonalne wyciąganie klatek z wideo (np. 1 klatka co sekundę).
-    Przydatne, gdy zespół nagrał przejście przez pasy telefonem.
+    Optionally extract video frames, for example one frame per second.
+    Useful for phone recordings of a crosswalk.
     """
     cap = cv2.VideoCapture(str(video_path))
     if not cap.isOpened():
-        print(f"[!] Nie można otworzyć wideo: {video_path.name}")
+        print(f"[!] Could not open video: {video_path.name}")
         return 0
 
     video_fps = cap.get(cv2.CAP_PROP_FPS) or 30.0
@@ -94,7 +94,7 @@ def process_directory(
     extract_video_fps: float = 0.0,
     quality: int = 95
 ):
-    """Przetwarza cały folder ze zdjęciami i wideo."""
+    """Process a directory of images and videos."""
     input_dir = input_dir.resolve()
     output_dir = output_dir.resolve()
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -117,19 +117,19 @@ def process_directory(
             standard_jpgs.append(f)
 
     print(f"\n=======================================================")
-    print(f" Analiza plików w katalogu: {input_dir}")
-    print(f" - Zdjęcia HEIC/inne do konwersji: {len(images_to_convert)}")
-    print(f" - Gotowe pliki JPG:              {len(standard_jpgs)}")
-    print(f" - Wykryte pliki wideo:           {len(videos)}")
+    print(f" Analyzing files in directory: {input_dir}")
+    print(f" - HEIC/other images to convert: {len(images_to_convert)}")
+    print(f" - Existing JPG files:              {len(standard_jpgs)}")
+    print(f" - Video files found:           {len(videos)}")
     print(f"=======================================================\n")
 
-    # 1. Konwersja HEIC / innych formatów
+    # 1. Convert HEIC and other image formats
     converted_count = 0
-    for img_path in tqdm(images_to_convert, desc="Konwersja obrazów (HEIC -> JPG)"):
+    for img_path in tqdm(images_to_convert, desc="Converting images (HEIC -> JPG)"):
         target_name = f"{img_path.stem}.jpg"
         target_path = output_dir / target_name
         
-        # Jeśli konwertujemy w tym samym katalogu i plik o tej nazwie istnieje
+        # Skip conversion when the target path is the source path
         if target_path == img_path:
             continue
 
@@ -139,68 +139,68 @@ def process_directory(
                 try:
                     img_path.unlink()
                 except Exception as e:
-                    print(f"[!] Błąd usuwania oryginału {img_path.name}: {e}")
+                    print(f"[!] Could not delete original file {img_path.name}: {e}")
 
-    # 2. Weryfikacja i standaryzacja istniejących JPG (korekta obrotu EXIF)
-    for jpg_path in tqdm(standard_jpgs, desc="Sprawdzanie rotacji EXIF w JPG"):
+    # 2. Check and standardize existing JPGs using EXIF orientation
+    for jpg_path in tqdm(standard_jpgs, desc="Checking JPG EXIF orientation"):
         try:
             with Image.open(jpg_path) as img:
                 transposed = fix_image_orientation(img)
-                # Sprawdzamy czy orientacja się zmieniła
+                # Check whether orientation has changed
                 if transposed is not img:
                     transposed.save(jpg_path, "JPEG", quality=quality)
         except Exception:
             pass
 
-    # 3. Obsługa wideo (jeśli włączona flaga)
+    # 3. Process videos when enabled
     extracted_frames_total = 0
     if extract_video_fps > 0 and videos:
-        print(f"\n[*] Ekstrakcja klatek z {len(videos)} filmów wideo (próbkowanie: {extract_video_fps} FPS)...")
-        for vid_path in tqdm(videos, desc="Przetwarzanie wideo"):
+        print(f"\n[*] Extracting frames from {len(videos)} videos (sampling: {extract_video_fps} FPS)...")
+        for vid_path in tqdm(videos, desc="Processing videos"):
             frames = extract_frames_from_video(vid_path, output_dir, fps_sample=extract_video_fps)
             extracted_frames_total += frames
-        print(f"[+] Wyciągnięto łącznie {extracted_frames_total} klatek z filmów.")
+        print(f"[+] Extracted {extracted_frames_total} video frames in total.")
     elif videos:
-        print(f"[*] Pominięto {len(videos)} plików wideo (aby wyciągnąć klatki, dodaj parametr --extract-video-fps 1.0)")
+        print(f"[*] Skipped {len(videos)} videos (add --extract-video-fps 1.0 to extract frames)")
 
-    print(f"\n[OK] Zakończono standaryzację!")
-    print(f" - Przekonwertowano pomyślnie: {converted_count} plików")
+    print(f"\n[OK] Standardization complete!")
+    print(f" - Successfully converted: {converted_count} files")
     final_jpgs = list(output_dir.glob("*.jpg"))
-    print(f" - Łączna liczba gotowych plików .jpg w {output_dir.name}: {len(final_jpgs)}")
+    print(f" - Total JPG files in {output_dir.name}: {len(final_jpgs)}")
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Konwersja zdjęć iPhone (.heic), standaryzacja orientacji EXIF i unifikacja do .jpg"
+        description="Convert iPhone HEIC images, apply EXIF orientation and standardize to JPEG"
     )
     parser.add_argument(
         "--input",
         type=str,
         default="data/raw/images",
-        help="Ścieżka do folderu wejściowego (domyślnie: data/raw/images)"
+        help="Input directory (default: data/raw/images)"
     )
     parser.add_argument(
         "--output",
         type=str,
         default="",
-        help="Ścieżka do folderu wyjściowego (domyślnie ten sam co wejściowy)"
+        help="Output directory (default: same as input)"
     )
     parser.add_argument(
         "--delete-originals",
         action="store_true",
-        help="Usuwa oryginalne pliki .heic po pomyślnej konwersji do .jpg"
+        help="Delete original input images after successful JPEG conversion"
     )
     parser.add_argument(
         "--extract-video-fps",
         type=float,
         default=0.0,
-        help="Jeśli > 0, wyciąga klatki z filmów wideo z podaną częstotliwością FPS (np. 1.0 = 1 klatka na sekundę)"
+        help="If > 0, extract video frames at this FPS (1.0 = one frame per second)"
     )
     parser.add_argument(
         "--quality",
         type=int,
         default=95,
-        help="Jakość kompresji JPEG (1-100, domyślnie 95)"
+        help="JPEG compression quality (1-100, default: 95)"
     )
 
     args = parser.parse_args()
@@ -208,7 +208,7 @@ def main():
     output_path = Path(args.output) if args.output else input_path
 
     if not input_path.exists():
-        print(f"[!] Podana ścieżka nie istnieje: {input_path}")
+        print(f"[!] Input path does not exist: {input_path}")
         sys.exit(1)
 
     process_directory(

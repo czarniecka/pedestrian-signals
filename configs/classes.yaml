@@ -1,5 +1,5 @@
-# ID zgodne z category w label_studio.xml.
-# Skrypt treningowy rozwiązuje path względem katalogu projektu.
+# IDs match the category attributes in label_studio.xml.
+# The training script resolves path relative to the project root.
 path: data/dataset
 train: images/train
 val: images/val
