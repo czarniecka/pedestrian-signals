@@ -1,0 +1,2890 @@
+[
+  {
+    "task_id": 1,
+    "annotation_id": 1,
+    "filename": "c5ec66b7-d73f-4c6b-a87c-d9207d9609aa.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      2048,
+      1536
+    ],
+    "processed_size": [
+      1920,
+      1440
+    ],
+    "source_sha256": "d043fde3f6ff5c25ca799683857f68acce45a31db425e777b1a90c10da5fa135",
+    "pixel_sha256": "0e87536310c13ae2f22117844bccb4aabc9b2ddc1ba7f22c38c67098fe586428",
+    "dhash": "e6e7e6c54defcccc",
+    "object_count": 4
+  },
+  {
+    "task_id": 2,
+    "annotation_id": 2,
+    "filename": "c9ea620c-56ff-4b5c-93f1-0c90c5b64c53.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      1536,
+      2048
+    ],
+    "processed_size": [
+      1440,
+      1920
+    ],
+    "source_sha256": "c14ce76510438258bbc1b7ceb99db16052a55e2777325c3ac455ac2cb3a3df02",
+    "pixel_sha256": "345c36886103cd218fa55da1d62b8dec5f9db5b300ed687e7d299c3fb50a16a9",
+    "dhash": "e0e107070f1e0f2b",
+    "object_count": 5
+  },
+  {
+    "task_id": 3,
+    "annotation_id": 3,
+    "filename": "d88be509-9312-48a4-ae55-f7ade2917fa9.jpg",
+    "scene_group": "fenced_crossing_training",
+    "split": "train",
+    "original_size": [
+      1536,
+      2048
+    ],
+    "processed_size": [
+      1440,
+      1920
+    ],
+    "source_sha256": "5dfe9e7e3512cb3822a8936ce1bdfd2fc222dfcdbfa1bd675df8493c374ec6fa",
+    "pixel_sha256": "8229aaa47a754af7d9ea27473875a48cd6d3e9c4e6b53497620bb1fc42a1c69d",
+    "dhash": "6a3c1f6f3d9f030b",
+    "object_count": 2
+  },
+  {
+    "task_id": 4,
+    "annotation_id": 4,
+    "filename": "IMG_0306.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3024,
+      4032
+    ],
+    "processed_size": [
+      1440,
+      1920
+    ],
+    "source_sha256": "8aaf40c43806d1ae358ed17bc44f8419bcb389ff64d7f6ea242b7e492efb0de8",
+    "pixel_sha256": "49f9afb039c0bace51f397950b86bb160c9d242130871d7fa542adafd367944c",
+    "dhash": "67079e593971b014",
+    "object_count": 1
+  },
+  {
+    "task_id": 5,
+    "annotation_id": 5,
+    "filename": "IMG_0977.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      4284,
+      5712
+    ],
+    "processed_size": [
+      1440,
+      1920
+    ],
+    "source_sha256": "5d148348f4b0e33a7cf306511537c7d98f3a62d3d37da56ba2314a292e1c0387",
+    "pixel_sha256": "54d040b5f858181523c13f7e715c5813446806a6aaa70b0708227dd424b5a7ff",
+    "dhash": "2f7fbf4b242cd2e0",
+    "object_count": 1
+  },
+  {
+    "task_id": 6,
+    "annotation_id": 6,
+    "filename": "IMG_0979.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      4284,
+      5712
+    ],
+    "processed_size": [
+      1440,
+      1920
+    ],
+    "source_sha256": "0ed98269f1e17315b0ef5cb411c70a5527846b1dd03117bc311dd17cef90dfa1",
+    "pixel_sha256": "9abd63fb7ca5b0d54500c2e4aeb5ca9e0496f4cc318618b6b8adceca43036c42",
+    "dhash": "d7bfbfb729019080",
+    "object_count": 1
+  },
+  {
+    "task_id": 7,
+    "annotation_id": 7,
+    "filename": "IMG_0981.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      4284,
+      5712
+    ],
+    "processed_size": [
+      1440,
+      1920
+    ],
+    "source_sha256": "fcd1f9dfc110b3ce52a521c9629949f21167078c93b2d762d83e6fc0a2352598",
+    "pixel_sha256": "7e682a031504ee2391ac2a82638ffc20e7453ac8f536f092eb6eb6a9088a7cbf",
+    "dhash": "5403871f0e47e3c0",
+    "object_count": 1
+  },
+  {
+    "task_id": 8,
+    "annotation_id": 8,
+    "filename": "IMG_0983.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      4284,
+      5712
+    ],
+    "processed_size": [
+      1440,
+      1920
+    ],
+    "source_sha256": "59c44c5faacd515e3e5361b73bc839be73e326413c1e3081ee2a7857f218181c",
+    "pixel_sha256": "2270cf15751a4ff2273df7112bbeab81d97161627f0c5b7725a3ebd5b693cce8",
+    "dhash": "01074ba1b70f3ed7",
+    "object_count": 2
+  },
+  {
+    "task_id": 9,
+    "annotation_id": 9,
+    "filename": "IMG_0985.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      4284,
+      5712
+    ],
+    "processed_size": [
+      1440,
+      1920
+    ],
+    "source_sha256": "0a99ca94a4952c7a858cb18d0b9fb4efb208948103da383c11feced5ccfc07d1",
+    "pixel_sha256": "b9150b2125bf105e10ce36ff8642df3cdb28aa13596eb469862022242f18cbc1",
+    "dhash": "240444651114341c",
+    "object_count": 2
+  },
+  {
+    "task_id": 10,
+    "annotation_id": 10,
+    "filename": "IMG_0987.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      4284,
+      5712
+    ],
+    "processed_size": [
+      1440,
+      1920
+    ],
+    "source_sha256": "c22c7b6ec0c17cd0cc767e370dec95dedcffd9f767c69f1ddf3fba01ff2ff3cc",
+    "pixel_sha256": "61a8681b66f9178d546d3ee67fb037cd0e8e3734809c8d3147e5d21ce2368f35",
+    "dhash": "80e660e0676fb7e4",
+    "object_count": 3
+  },
+  {
+    "task_id": 11,
+    "annotation_id": 11,
+    "filename": "IMG_0988.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      4284,
+      5712
+    ],
+    "processed_size": [
+      1440,
+      1920
+    ],
+    "source_sha256": "f5e8fd1282420a07deb847a296be389554d6e143f8267a78e4b0375ffd37e78a",
+    "pixel_sha256": "6659fd29f6b66b0f87df6012e2e6d02ad64531cdb548ad99d5d2c4461353de84",
+    "dhash": "9308841134345903",
+    "object_count": 3
+  },
+  {
+    "task_id": 12,
+    "annotation_id": 12,
+    "filename": "IMG_0989.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      4284,
+      5712
+    ],
+    "processed_size": [
+      1440,
+      1920
+    ],
+    "source_sha256": "aaabab6d1698508b7b92c9acf2f0def35fc336b4d565cbef8608fcf88e1a06a1",
+    "pixel_sha256": "610d0a790bdc7f3c268df0b7bc9e4d7bbb68bf15fc6dd1ad6d17cff575fa622b",
+    "dhash": "3e30110e96b6eef9",
+    "object_count": 5
+  },
+  {
+    "task_id": 13,
+    "annotation_id": 13,
+    "filename": "IMG_0992.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      4284,
+      5712
+    ],
+    "processed_size": [
+      1440,
+      1920
+    ],
+    "source_sha256": "b0bbccf837548dae60c0c43cfaff0c0346f41a7720ce12ffa64a464399c23294",
+    "pixel_sha256": "29f9ef2cc74f66ec1b41028e75c47c48d9ac78c3c103f425a6a4d77ebecf1edb",
+    "dhash": "8244009883040400",
+    "object_count": 2
+  },
+  {
+    "task_id": 14,
+    "annotation_id": 14,
+    "filename": "IMG_0993.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      4010,
+      5346
+    ],
+    "processed_size": [
+      1440,
+      1920
+    ],
+    "source_sha256": "6b8d4947484870da7bb8de72835041ff55ba253fcf22cdc4e6c44250e171041e",
+    "pixel_sha256": "b074b2ce73f15b141c87d5b8d0c256d88196930905676f47b94294b02fbf9a86",
+    "dhash": "5e00028881062600",
+    "object_count": 2
+  },
+  {
+    "task_id": 15,
+    "annotation_id": 15,
+    "filename": "IMG_0994.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      4284,
+      5712
+    ],
+    "processed_size": [
+      1440,
+      1920
+    ],
+    "source_sha256": "fb4d187ad381a3436eacd5b2f2b64f3ceef2e9eaee406e63e801b17f7d208be2",
+    "pixel_sha256": "f8dd5b6df6bd233f83091643142b76f7e2ee1ed09a099cc2045881585d863270",
+    "dhash": "00c8316451a6c679",
+    "object_count": 3
+  },
+  {
+    "task_id": 16,
+    "annotation_id": 16,
+    "filename": "IMG_0996.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      4284,
+      5712
+    ],
+    "processed_size": [
+      1440,
+      1920
+    ],
+    "source_sha256": "af26a2ac4deabd0fe4455d60cc93030b264adba03bfc64a76268c7f27ed28439",
+    "pixel_sha256": "99151d9f2957fc92dda767acc4db86c868018977d185d82794e077954eeff32e",
+    "dhash": "8c85f6d8624889b1",
+    "object_count": 3
+  },
+  {
+    "task_id": 17,
+    "annotation_id": 17,
+    "filename": "IMG_0999.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      1206,
+      1588
+    ],
+    "processed_size": [
+      1206,
+      1588
+    ],
+    "source_sha256": "591afec832463b7754a162c29964817f05e83ceb3f64dd6b08fb5ab836f56cff",
+    "pixel_sha256": "624138c5bdfa9f1c2adde07f56640cf08f783dd2ce1df02501ad2c8244e19887",
+    "dhash": "064020a3dececf8c",
+    "object_count": 5
+  },
+  {
+    "task_id": 18,
+    "annotation_id": 18,
+    "filename": "IMG_1001.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      1206,
+      1582
+    ],
+    "processed_size": [
+      1206,
+      1582
+    ],
+    "source_sha256": "6001e44067f05f80b7ea997be52cc16a08b818e263663ffaf7136302d3b0dd76",
+    "pixel_sha256": "118e4e0c03b23809fc9d74aca409279e82a52bd5217d3b4cc6df613709a68ace",
+    "dhash": "00040c9869694dd1",
+    "object_count": 2
+  },
+  {
+    "task_id": 19,
+    "annotation_id": 19,
+    "filename": "IMG_1003.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      4284,
+      5712
+    ],
+    "processed_size": [
+      1440,
+      1920
+    ],
+    "source_sha256": "0a67be2e87e5e38443ac7686606504e58286435a6b8c4b33fe1da62b4951917a",
+    "pixel_sha256": "f67509f887f534ad30d40bbba0e5f48092cade819e27f98b067c523c8daa051f",
+    "dhash": "99b12a9591557373",
+    "object_count": 2
+  },
+  {
+    "task_id": 20,
+    "annotation_id": 20,
+    "filename": "IMG_1004.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      627,
+      836
+    ],
+    "processed_size": [
+      627,
+      836
+    ],
+    "source_sha256": "4f18a98aba9095b483b2ef71ff1f25e50f71024e618c1825f95b0d09c1c85e65",
+    "pixel_sha256": "0335e9e5ed23040d34f3dadf73c51a6fc4f328c43661b279402e462038b251a0",
+    "dhash": "60c319c1c768edf5",
+    "object_count": 4
+  },
+  {
+    "task_id": 21,
+    "annotation_id": 21,
+    "filename": "IMG_1005.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      4284,
+      5712
+    ],
+    "processed_size": [
+      1440,
+      1920
+    ],
+    "source_sha256": "f740a25714f637323805d4c8cadb8ead4eaf3f03bf246db8cfba14737c5b00c4",
+    "pixel_sha256": "6e0ecd754aea278cd75e41ba149d2e35dfccbc792d85d63813b21eea6aa50615",
+    "dhash": "8c8fa9d1e3081a9b",
+    "object_count": 2
+  },
+  {
+    "task_id": 22,
+    "annotation_id": 22,
+    "filename": "IMG_1006.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      627,
+      836
+    ],
+    "processed_size": [
+      627,
+      836
+    ],
+    "source_sha256": "c25093ed9aa1917c657c463752c3fa17206ff64ebed3b5a256258633426703ab",
+    "pixel_sha256": "1d9a9821de52eaed1c2ea82be1cf7e92e458b4cdd75c22450e0db41142655018",
+    "dhash": "e62a2c9c2425f7f7",
+    "object_count": 4
+  },
+  {
+    "task_id": 23,
+    "annotation_id": 23,
+    "filename": "IMG_1007.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      627,
+      836
+    ],
+    "processed_size": [
+      627,
+      836
+    ],
+    "source_sha256": "063a748fc9b66712127ba9bf45db694e789d2e855563e1c78d0b4a5a05f90564",
+    "pixel_sha256": "56d9ed887b125b807aa45fb9b3f9581212ec099c60aaedeabd254c0d2abeb646",
+    "dhash": "a165279d6666efe7",
+    "object_count": 2
+  },
+  {
+    "task_id": 24,
+    "annotation_id": 24,
+    "filename": "IMG_1008.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      627,
+      836
+    ],
+    "processed_size": [
+      627,
+      836
+    ],
+    "source_sha256": "1e9dedde153fcc3b683b459f86fb52c807122abc62ac8470ebc6f767b5be3907",
+    "pixel_sha256": "1a6bb88e5efbeeed3a0658819fb76d758e772ee8fec95cddfc46841def41e647",
+    "dhash": "03e63c6383fcf8f0",
+    "object_count": 4
+  },
+  {
+    "task_id": 25,
+    "annotation_id": 25,
+    "filename": "IMG_1009.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      627,
+      836
+    ],
+    "processed_size": [
+      627,
+      836
+    ],
+    "source_sha256": "952392e14c0351f97cb2290ae0df9e6221bb91015dc0bc009fe6870391a54f1b",
+    "pixel_sha256": "10bd0f1a4ae55524f1fe04917ad81208137daf0835a35835ce731e4a5d41ff8b",
+    "dhash": "d1570b90d5fcf4fe",
+    "object_count": 3
+  },
+  {
+    "task_id": 26,
+    "annotation_id": 26,
+    "filename": "IMG_1010.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      627,
+      836
+    ],
+    "processed_size": [
+      627,
+      836
+    ],
+    "source_sha256": "528476b032f686fb930df791da7766e9cb5c16fa830fed28c6571934cf99a454",
+    "pixel_sha256": "3807d8428ebabe58a876e426845fd9d347389c6759ade995b968eb17a236f583",
+    "dhash": "b1740d64e4efeffa",
+    "object_count": 1
+  },
+  {
+    "task_id": 27,
+    "annotation_id": 27,
+    "filename": "IMG_1011.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      627,
+      836
+    ],
+    "processed_size": [
+      627,
+      836
+    ],
+    "source_sha256": "b3030816121cc28010765185f3996e1990a8a096cd4b21d8d25b685ebe760ce0",
+    "pixel_sha256": "f1d8c6eee04b6800f7305e52a3463457fb89b7fe138e223134d5c5bf1b995160",
+    "dhash": "068342540668f0f0",
+    "object_count": 2
+  },
+  {
+    "task_id": 28,
+    "annotation_id": 28,
+    "filename": "IMG_1012.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      627,
+      836
+    ],
+    "processed_size": [
+      627,
+      836
+    ],
+    "source_sha256": "b082492561b94e3d5290a6dc8cef77ec5675319ac4429d31dc35a065ef6a4f3b",
+    "pixel_sha256": "b523dc6df195acbb1af15cc6d8dc28904f65be4e8bbdd95589489493dfb98b10",
+    "dhash": "c50da6ec262cf0f0",
+    "object_count": 2
+  },
+  {
+    "task_id": 29,
+    "annotation_id": 29,
+    "filename": "IMG_1013.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      627,
+      836
+    ],
+    "processed_size": [
+      627,
+      836
+    ],
+    "source_sha256": "70c0e2eb23282bcce93c7c6e518dca95fbb0b03291a143143881615904b679bf",
+    "pixel_sha256": "41fa382d130cf3916bbeff26e86079674c4036ad5273e2b9ddcd549b7f2fe87b",
+    "dhash": "031fe206a96a2327",
+    "object_count": 2
+  },
+  {
+    "task_id": 30,
+    "annotation_id": 30,
+    "filename": "IMG_1014.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      627,
+      836
+    ],
+    "processed_size": [
+      627,
+      836
+    ],
+    "source_sha256": "e3ee4da82867dd7da2107024985b9181dd928d369367d3e49f29d5837919e03b",
+    "pixel_sha256": "28288d5dd6787726f742780ed49fae50289758d54f37a4b5b3ac251ab091079c",
+    "dhash": "40180138b8202080",
+    "object_count": 3
+  },
+  {
+    "task_id": 31,
+    "annotation_id": 31,
+    "filename": "IMG_1015.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      627,
+      836
+    ],
+    "processed_size": [
+      627,
+      836
+    ],
+    "source_sha256": "93280ecc45109ee44433ef8e60dc4f22671565f0fb8aecb89f97fae32af930c5",
+    "pixel_sha256": "2f873fe946e9f2ed9bf359f2702dbcdcec733d943c600703e9efeab6dc01c9d9",
+    "dhash": "420383e6e2830300",
+    "object_count": 4
+  },
+  {
+    "task_id": 32,
+    "annotation_id": 32,
+    "filename": "IMG_1016.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      627,
+      836
+    ],
+    "processed_size": [
+      627,
+      836
+    ],
+    "source_sha256": "09be7cbfa2ce58d7dc8178f83bdb2d258e5c522a996771427e740aac69093bbf",
+    "pixel_sha256": "973909990bfe16b295a967e7805930b9613232dbc30d1c3362540ccf4e7afd2b",
+    "dhash": "7808801c5d9080c0",
+    "object_count": 3
+  },
+  {
+    "task_id": 33,
+    "annotation_id": 33,
+    "filename": "IMG_1017.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      627,
+      836
+    ],
+    "processed_size": [
+      627,
+      836
+    ],
+    "source_sha256": "8466ffffdb04d6d52385880c11f6afadaa4ef95ec8b8e93f283555e64014cdbc",
+    "pixel_sha256": "06ee56e62bd7cf32104e3a506a21d23c6c415470a364b56e29350d0064f273b6",
+    "dhash": "e7bd1636346767e1",
+    "object_count": 2
+  },
+  {
+    "task_id": 34,
+    "annotation_id": 34,
+    "filename": "IMG_9770.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      1206,
+      1654
+    ],
+    "processed_size": [
+      1206,
+      1654
+    ],
+    "source_sha256": "f2e98cc1543e70bae13eb070d15973d84a75398a1af288b4dc36a00a49471424",
+    "pixel_sha256": "5cb7883d812cf3deefbb14015ad4700cc39e2c2ec202162a9f63dd3b6197aee9",
+    "dhash": "f2a73315a7079f9d",
+    "object_count": 1
+  },
+  {
+    "task_id": 35,
+    "annotation_id": 35,
+    "filename": "IMG_9771.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      1206,
+      1647
+    ],
+    "processed_size": [
+      1206,
+      1647
+    ],
+    "source_sha256": "4698efeb4ef91cac132c7fe3cbc63b68f862f96e88ceb726fb5243c8824e276d",
+    "pixel_sha256": "a676c1c178a7bc1f9a9554a18d2969e1799a334b8d01614ff7a4d6f42a67df8a",
+    "dhash": "00000107765e44c4",
+    "object_count": 6
+  },
+  {
+    "task_id": 36,
+    "annotation_id": 36,
+    "filename": "IMG_9772.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      1206,
+      1744
+    ],
+    "processed_size": [
+      1206,
+      1744
+    ],
+    "source_sha256": "a5ff6901514912ac709db2cad287b3287d1385db27ab63de023bbd1294bfe138",
+    "pixel_sha256": "d12292d127a83b57c5c630988c390d7e97118a1d51b853698c18d4227f4082d4",
+    "dhash": "000004c31d0f1312",
+    "object_count": 5
+  },
+  {
+    "task_id": 37,
+    "annotation_id": 37,
+    "filename": "PXL_20260813_070624533.MP.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "4c85fc19e8608c685db966c2ee7d7f747025e82b5cf19b524283b93a488c9b81",
+    "pixel_sha256": "d8999d4be3879dda359f4eb498215aae2163344a50d1fe8285f7656c73499c71",
+    "dhash": "f4fe18d3ca8e0c4c",
+    "object_count": 2
+  },
+  {
+    "task_id": 38,
+    "annotation_id": 38,
+    "filename": "PXL_20260813_070629586.MP.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "5d43b4698015c67285f8ff0b22e7d61ef48ea5a6b45db28bb915d16699f20f39",
+    "pixel_sha256": "09711f284649c1fd4245e1c844edbf10f445bc3a2673710b038c4511316d3cc4",
+    "dhash": "d2424022968db332",
+    "object_count": 3
+  },
+  {
+    "task_id": 39,
+    "annotation_id": 39,
+    "filename": "PXL_20260813_070631299.MP.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "073b1b3c9e8345403dda74814c8f25772c1dccdc39ae784411a96785db664fc2",
+    "pixel_sha256": "cf327e2d4eaef32e38924f3237072f883057ee064269e8023a1e3e0a92137c9a",
+    "dhash": "30991a4872b2a1a6",
+    "object_count": 2
+  },
+  {
+    "task_id": 40,
+    "annotation_id": 40,
+    "filename": "PXL_20260813_070635596.MP.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "58c690662105c89203c3a42b7d57cb9afad05cf1e017bb27fd10d1eb1a3dd069",
+    "pixel_sha256": "82c52eac2b9f858ec31cb90d4f9a630ae9473a9997408c72f24a1b09ed3912c0",
+    "dhash": "0f4cc861160e0970",
+    "object_count": 1
+  },
+  {
+    "task_id": 41,
+    "annotation_id": 41,
+    "filename": "PXL_20260813_070638056.MP.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "ed990226e1d400a7c723599deb7f5d7e5124bb89f94539bba3c1c8497476d0de",
+    "pixel_sha256": "98104903c320e4a8ddbf77c4c9a0deb5f11858d8aa669f2782c82f52b922303b",
+    "dhash": "e36e1606f1f160b3",
+    "object_count": 2
+  },
+  {
+    "task_id": 42,
+    "annotation_id": 42,
+    "filename": "PXL_20260813_070639055.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "e3a312d67d133c7feca79fbe2a1ef0ab732446a486269efcbd1dda69070601a7",
+    "pixel_sha256": "ee0cbef729fef269a8fc202bb4c416646918a06385adca124563f34c33d4b906",
+    "dhash": "7246360be2f28064",
+    "object_count": 2
+  },
+  {
+    "task_id": 43,
+    "annotation_id": 43,
+    "filename": "PXL_20260813_070640593.MP.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "5aae2d433be3d4438153411e2ec944be8e4319de66b40ad507100176270815e3",
+    "pixel_sha256": "d9b8e317d9dd3fa63d46fb092329f1adafd0551729525b2e5c0743ac5cfdaba6",
+    "dhash": "1fe00189e2f28126",
+    "object_count": 2
+  },
+  {
+    "task_id": 44,
+    "annotation_id": 44,
+    "filename": "PXL_20260813_070641887.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "8b6fa7a323897d4c12ec588084d48e2065caab956a5153e4f0a5968cd1170367",
+    "pixel_sha256": "93bfb75084764eb2e79876fa43bb81ec0cdbcc1b1aeaf19d9d087cebba820d4c",
+    "dhash": "ff202089c5e4424a",
+    "object_count": 2
+  },
+  {
+    "task_id": 51,
+    "annotation_id": 45,
+    "filename": "PXL_20260813_150152621.MP.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "39a9cd718c460256e7ec3135b762956081f4a509f2cf36e88840af3f5acd61a7",
+    "pixel_sha256": "d623af8b9b8ff71419e6fd5a876deb4a96e85d7026d0ef267433191ca19ca5a7",
+    "dhash": "f7ff5c2e1999efff",
+    "object_count": 2
+  },
+  {
+    "task_id": 52,
+    "annotation_id": 46,
+    "filename": "PXL_20260813_150154407.MP.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "e870c3e68d8b4a4d5d2cdff399ab76bfdb37547c916c77227b70f54a708e1597",
+    "pixel_sha256": "7800b82bc028bafbe5a5daf0922c30e3aaa2239e56b9df196466db928f2ae349",
+    "dhash": "bffcf37c8b3374ef",
+    "object_count": 2
+  },
+  {
+    "task_id": 53,
+    "annotation_id": 47,
+    "filename": "PXL_20260813_150155948.MP.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "16df653c19b18f3f0d51fa97f234b2a3fa40e6574e1b05762368971e15e77d62",
+    "pixel_sha256": "baf90b509fa6c12f33b92fb58e4e70a4862db5d52bc908019605f601c2d314bf",
+    "dhash": "f0e572ab89393aee",
+    "object_count": 2
+  },
+  {
+    "task_id": 54,
+    "annotation_id": 48,
+    "filename": "PXL_20260813_150157138.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "58eb3777572acb91288b5757c3d4973656fc45ec94361a81640ff71036d2f39e",
+    "pixel_sha256": "a2e3d998497d2cab8642273680a892da28e1f8204133be05a9b5b413fb8961fa",
+    "dhash": "ebf3644e2931fefc",
+    "object_count": 2
+  },
+  {
+    "task_id": 55,
+    "annotation_id": 49,
+    "filename": "PXL_20260813_150158364.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "1e358ca9ec565ee50e7e94318663040a6c536547b214773ae99937a546c38ca3",
+    "pixel_sha256": "71de2be3b1fa6244771b3ec5e7e37e94c51dd28d2d36c9987a23498cf3cc1a0e",
+    "dhash": "9e79e88e0b637d7f",
+    "object_count": 2
+  },
+  {
+    "task_id": 56,
+    "annotation_id": 50,
+    "filename": "PXL_20260813_150159330.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "b0fc0a95590b758619263a1b701edb4adad9d5b2e98aa1a69562354f16990177",
+    "pixel_sha256": "fb175aaf3dbc7bb9dff33a536ed6ba40af9389bda02b9768b4742778c9b1da63",
+    "dhash": "ef8d391e0bc3cffe",
+    "object_count": 2
+  },
+  {
+    "task_id": 57,
+    "annotation_id": 51,
+    "filename": "PXL_20260813_150200482.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "7e7f391fd00d96d5d39cab42f99cad846e66996b9c0bfff384bdee71a54938c6",
+    "pixel_sha256": "47a1a428a21675bb91d969919a974267a8d74ff4f5c3bd9d2809019f7f6bfa09",
+    "dhash": "3b1981493931d7ff",
+    "object_count": 2
+  },
+  {
+    "task_id": 58,
+    "annotation_id": 52,
+    "filename": "PXL_20260813_150201283.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "b02aabf8a64c9d26575b79ae93b88c672c536c73045fc60a8091f0ffeccfb7d6",
+    "pixel_sha256": "58993afa768325fb796c2b6b6416f858f755e7950641816d58b63dad28241d71",
+    "dhash": "201bc965ad3478cf",
+    "object_count": 2
+  },
+  {
+    "task_id": 59,
+    "annotation_id": 53,
+    "filename": "PXL_20260813_150202159.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "90028d60285f7388fb80952dab4d37d737d657fcdc4abd781f4a88d43014a8fa",
+    "pixel_sha256": "2b0350cd7c56912c9a4471fff7027e78cb2f32f400335c9ef3bfd57960408d7c",
+    "dhash": "379c98668c347ccf",
+    "object_count": 2
+  },
+  {
+    "task_id": 60,
+    "annotation_id": 54,
+    "filename": "PXL_20260813_150203079.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "2a73b25d7b50078af254fecaaf14483a1220eed8d5eb92bcb82e5e6eac91a545",
+    "pixel_sha256": "3e313a1df7424cd2ae089a205adc03691ec18ed9884c239947223659f31a8c7b",
+    "dhash": "e8b8c831669e1a6d",
+    "object_count": 2
+  },
+  {
+    "task_id": 61,
+    "annotation_id": 55,
+    "filename": "PXL_20260813_150205111.MP.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "e85896305870b8b5e9d965db9acd3eb035e6c7183e96174f9f8774ac0dd183ad",
+    "pixel_sha256": "61c68ef236962e5b9c225e48bbcc02add403d9c7f4a38b27640844224f09d30d",
+    "dhash": "f9f2fcd8dcfd8044",
+    "object_count": 1
+  },
+  {
+    "task_id": 62,
+    "annotation_id": 56,
+    "filename": "PXL_20260813_150206045.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "75fe6a3b15921c9ca33c3cb8daf21bc43a424a5f8750de75d4582f699c13da21",
+    "pixel_sha256": "d554694cd0157330ffdb18d85f00970c3d18e0c44893f0533b3822ae63321ec5",
+    "dhash": "d8f0e8f0e97b93b5",
+    "object_count": 1
+  },
+  {
+    "task_id": 67,
+    "annotation_id": 57,
+    "filename": "PXL_20260813_150222750.MP.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "a35bc117648a6a43b0b1a465490738613f40c63fef50e93d24e881dc990447f8",
+    "pixel_sha256": "16d402b815ce7d0c29e5f9bef81dff8f5ca352b8a8c67e36902bc21f59d11a98",
+    "dhash": "32262207dd1f3303",
+    "object_count": 3
+  },
+  {
+    "task_id": 68,
+    "annotation_id": 58,
+    "filename": "PXL_20260813_150223937.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "105f8a7d19bc5f91e486c6910898fd21322a22b256be147edb4a775eeb36c8d0",
+    "pixel_sha256": "2e810ad441b757e49d6ebd19c1bc3b52cbba6e9324e250de47778dd6f4298124",
+    "dhash": "31111103ce0f1161",
+    "object_count": 3
+  },
+  {
+    "task_id": 69,
+    "annotation_id": 59,
+    "filename": "PXL_20260813_150225015.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "f44b62c480c713ea76f643a0bbf28df15960b32f3e09f813d78de14048cf221d",
+    "pixel_sha256": "9d8274ff94f9ba900953459413723fe32f82c913a7239ee9c127cd2485318724",
+    "dhash": "290d000d67039860",
+    "object_count": 3
+  },
+  {
+    "task_id": 70,
+    "annotation_id": 60,
+    "filename": "PXL_20260813_150225920.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "91fa63b5608f66d8d20dd9472afd5b6e94c69d20b7d5bb35bcd69181c8a4a0e6",
+    "pixel_sha256": "76b5f7834cba84ae260ce80dc663fd5eea5872d634db4002236bb07004928179",
+    "dhash": "8602000867839060",
+    "object_count": 3
+  },
+  {
+    "task_id": 71,
+    "annotation_id": 61,
+    "filename": "PXL_20260813_150226531.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "52739fcbb4dbe4a31d0a575b9ff9f32caa29ace0d3498513abf9bde91bf333af",
+    "pixel_sha256": "a4f0049d74f6dc2a2a5b5be38862e1561e0351b73c641170b9ebf89c4020b592",
+    "dhash": "b424000000878320",
+    "object_count": 3
+  },
+  {
+    "task_id": 77,
+    "annotation_id": 62,
+    "filename": "PXL_20260813_150234175.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "90b80fa4da8cb7297f1d769fd51ce7877c44ae8b7eca7d8ead4862d809bed0c6",
+    "pixel_sha256": "eea61af3b16b9948a6dd4a3954df7dbc78cf0545a8b5b3b9a3b601d0bbd7c558",
+    "dhash": "c9e96997a69e1f3e",
+    "object_count": 3
+  },
+  {
+    "task_id": 78,
+    "annotation_id": 63,
+    "filename": "PXL_20260813_150235075.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "95645c0636aa34a20b8986d3ce035a0dfb457467de01d70e703115f78da732d4",
+    "pixel_sha256": "a88ca454096602b32c1684712c74e6cb1a073974bb60f70147baeafe9f8a584e",
+    "dhash": "b591104ecc9e3f7d",
+    "object_count": 3
+  },
+  {
+    "task_id": 79,
+    "annotation_id": 64,
+    "filename": "PXL_20260813_150236074.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "8bf2bc1aeaeb78c26b0ab02fb5d747050ba66759df685aa9b11b0a900a14d3d3",
+    "pixel_sha256": "92941ba2d95274a3c6e566da1854fc6ad9e7cf0c05cbd1ab082098f8d953ed03",
+    "dhash": "4c4db72cca9e3d7d",
+    "object_count": 3
+  },
+  {
+    "task_id": 80,
+    "annotation_id": 65,
+    "filename": "PXL_20260813_150236909.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "0678d9718c1e4a2455f13db677b507ea42fd54e3eacdb77855837e2517b24cc4",
+    "pixel_sha256": "0090e574dc4a4446e84c02dce082d09882bc70ef269bfe4d459fc50eeb2ac624",
+    "dhash": "5f9732474c9e1d7c",
+    "object_count": 3
+  },
+  {
+    "task_id": 81,
+    "annotation_id": 66,
+    "filename": "PXL_20260813_150237891.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "5778ecb058e555b568af7e0f7d1bd7eac2e1dda4b009e3e8576ff6f5f3ea6c4d",
+    "pixel_sha256": "ae311eab686f5d12966ecc1a4c889bddf76f2119161e6a2b8f049742f46d08c1",
+    "dhash": "b1cab5a7f6ce9e36",
+    "object_count": 3
+  },
+  {
+    "task_id": 82,
+    "annotation_id": 67,
+    "filename": "PXL_20260813_150238960.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "c8c59e74dd976759eaa2890ba74d5c69207eb686efb7c3a894ec0ec49f74946e",
+    "pixel_sha256": "97fd9a05acd9f9b2c45170f8a7239f1fecc1bafd0e6bad28f6762141873cd8e3",
+    "dhash": "26b9e34bca469f1e",
+    "object_count": 3
+  },
+  {
+    "task_id": 83,
+    "annotation_id": 68,
+    "filename": "PXL_20260813_150239931.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "231d82ee9e2b6a1e7cd19c1d95201e9d59dc27e3ca60c39e444ea7737090eb06",
+    "pixel_sha256": "9538338e00bd0bd162c32fc7c8f8a17b02a12facd5c6d68c2fe98da164d72ca1",
+    "dhash": "2f527336c64d9d3c",
+    "object_count": 3
+  },
+  {
+    "task_id": 84,
+    "annotation_id": 69,
+    "filename": "PXL_20260813_150240938.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "49f0772dd4ea86e5030c9d624fe0ab570f0087ec627b63e20c779b7f2a0acc0d",
+    "pixel_sha256": "53656e910937b7afd602a414e2277e282c829b4405d7346d1538451ff9876055",
+    "dhash": "b9ded73fc90c8e2e",
+    "object_count": 3
+  },
+  {
+    "task_id": 85,
+    "annotation_id": 70,
+    "filename": "PXL_20260813_150241820.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "3416951f3410f6eb86bc608b808b7cdd3a048123e282555d633ca398cd14be2f",
+    "pixel_sha256": "aabbee436e7576b71ce99bc65568693628d1f77656b595f39ac325d2baa7f6b2",
+    "dhash": "9f6f61e7d8814c8e",
+    "object_count": 3
+  },
+  {
+    "task_id": 86,
+    "annotation_id": 71,
+    "filename": "PXL_20260813_150242822.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "81a2dba5f600de719126dff54910f01bab70ce2c3fa417f44666b4179bcdd210",
+    "pixel_sha256": "ebbde76a3c14a5cb3cd433d6b084778b6340c4feaee1a4bb2fcdb0578ba9ee56",
+    "dhash": "077cc0031f4e8e8f",
+    "object_count": 3
+  },
+  {
+    "task_id": 87,
+    "annotation_id": 72,
+    "filename": "PXL_20260813_150243704.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "a63a3899630ef8c867e8a21cc0916cbe39b6ecc009a0e6047021f47bc7adaa85",
+    "pixel_sha256": "5fe54b07e4af290088f89557d9ede496d46d905a743c5e4c986449f6e7e3d5a8",
+    "dhash": "7fe001031ff90e8f",
+    "object_count": 2
+  },
+  {
+    "task_id": 88,
+    "annotation_id": 73,
+    "filename": "PXL_20260813_150244367.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "d2f3c1b77b30b00c2f1e64b35e4973e5edc81f227832231fb310a5eed09800da",
+    "pixel_sha256": "13e11135a990e038fcf2fd45b274de551708272d52e8049953d3848af5b0ed77",
+    "dhash": "11f0030e1f190e8f",
+    "object_count": 3
+  },
+  {
+    "task_id": 89,
+    "annotation_id": 74,
+    "filename": "PXL_20260813_150245308.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "1aab001f449b76632469d6484e60d572b8378d2f0e03455d34a76d4bfe13d041",
+    "pixel_sha256": "2c698938e584f39f001ead897a1ca0422f4dca9f66d185aea9a28d474b2e5a74",
+    "dhash": "cf9e807facb89e2f",
+    "object_count": 4
+  },
+  {
+    "task_id": 90,
+    "annotation_id": 75,
+    "filename": "PXL_20260813_150246110.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "686c29d94e2fa8f8e0b50dd7165102b73fc02de301df7d1810d61d397c3329ff",
+    "pixel_sha256": "dfd0205434598d09a7da6b8d578b77e3fa23bb9b18db7d0345f6dee6c57cbaef",
+    "dhash": "e003ff6f6b299e0b",
+    "object_count": 4
+  },
+  {
+    "task_id": 91,
+    "annotation_id": 78,
+    "filename": "PXL_20260813_150246909.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "aea436f4b6dbed76b16ffbfae727c3dd4b8a3926abb49f082040202e868d74d3",
+    "pixel_sha256": "93e6fcb880bfdffac53d662a3f5d4991a47a8084874640bb0a52b1d6f8c5756e",
+    "dhash": "709b968faccf8d27",
+    "object_count": 4
+  },
+  {
+    "task_id": 92,
+    "annotation_id": 79,
+    "filename": "PXL_20260813_150247708.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "885cf20c9a86da752018fbc06622101be8a8a15705fbbc310cf2b46a21f9b9a7",
+    "pixel_sha256": "e076941f9de880a54e459821b77d78e3fa4463def1d5801e64e7bf65ee2efca1",
+    "dhash": "0f603f1d3c0f0d2f",
+    "object_count": 4
+  },
+  {
+    "task_id": 93,
+    "annotation_id": 80,
+    "filename": "PXL_20260813_150248490.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "318a8ecba3a386f2f069aa320fd2f7701256943de4b19e04f7d671cd97f8725d",
+    "pixel_sha256": "cca1bc4888f38f25d3c3d5f8fab9a06d456c64206d3e5811f22ab6f6c3d1c51e",
+    "dhash": "0f7e13388d054d0d",
+    "object_count": 3
+  },
+  {
+    "task_id": 94,
+    "annotation_id": 81,
+    "filename": "PXL_20260813_150249417.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "6c7366fbb0c3d31532964c4aadaa90d0517ad24db2f0dde94a837fd56859b6c0",
+    "pixel_sha256": "870ce210b3dbadd149bb7d3e29981eb11fa43cacaeec481f5978b9e76293dc68",
+    "dhash": "5c3c3f3bcc0e440d",
+    "object_count": 2
+  },
+  {
+    "task_id": 95,
+    "annotation_id": 82,
+    "filename": "PXL_20260813_150250329.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "c7babb0480f5d42377fb0cb5d1f083f0b6580d22f29fd03b06247859e2b34d92",
+    "pixel_sha256": "dad040f2661b3d3090a5dadcd681705121d42f891fa545153b1ffc4fb3f7344a",
+    "dhash": "95c17d880c9c460d",
+    "object_count": 2
+  },
+  {
+    "task_id": 96,
+    "annotation_id": 83,
+    "filename": "PXL_20260813_150251154.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "e144264b2dfcf086cb8cbc124a13d136b48fc22333000373ca44cf9c069e3815",
+    "pixel_sha256": "58e19645417224f6e1b4789897f2255a5285108b167715098711093d86705a34",
+    "dhash": "e73c90470c0ac607",
+    "object_count": 2
+  },
+  {
+    "task_id": 97,
+    "annotation_id": 84,
+    "filename": "PXL_20260813_150252002.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "0f0b9017ebbc66bfeac0b880a7e303c90221492d4c57dd1bdcd107c2c6c9b25d",
+    "pixel_sha256": "a183ef192244e3156e53f86c46cab02578d6a7a868d2883fe1f5d8ad20ad127d",
+    "dhash": "3e70860f0e164e0d",
+    "object_count": 2
+  },
+  {
+    "task_id": 98,
+    "annotation_id": 85,
+    "filename": "PXL_20260813_150253014.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "4cd1686291310d8517568d90970f9f9b26adf706b321bc6613d1a3bb653dcd59",
+    "pixel_sha256": "02566e911b0b4c9e2d3972e278f444b3399ee7854be43d76b98e548825eb1601",
+    "dhash": "1f18cf0b0ac60e04",
+    "object_count": 2
+  },
+  {
+    "task_id": 99,
+    "annotation_id": 86,
+    "filename": "PXL_20260813_150253898.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "48cdcea039c0e7832f6835b26877225d0a99c298737ee33bb4e843021fddd6a4",
+    "pixel_sha256": "5050730d25c4dff259c84b066b8008179e04a342d011e6b57af82e9385ef6b4a",
+    "dhash": "718f1c1b5b934f0e",
+    "object_count": 2
+  },
+  {
+    "task_id": 100,
+    "annotation_id": 87,
+    "filename": "PXL_20260813_150254782.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "5ce338dea7a30aba725d5981fa8574fedfdfdea890b06eda2db0d150ae310cfd",
+    "pixel_sha256": "5cbb0ac471af040a1c998f9820cff96875d9ff54ebba730f46f4636528e8b16d",
+    "dhash": "03071d4b49a3c30b",
+    "object_count": 1
+  },
+  {
+    "task_id": 103,
+    "annotation_id": 88,
+    "filename": "PXL_20260813_150302460.MP.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "bb8d6988fa24a0b89b38d1b6acf978d983d10b04c76bcbd85d729def3df85a13",
+    "pixel_sha256": "94e8d6eb5a9b288af9e49ef03be068e83ac681ca1e86c6d4e957abd5dbe1dc7c",
+    "dhash": "c2c730c7ccbca367",
+    "object_count": 2
+  },
+  {
+    "task_id": 104,
+    "annotation_id": 89,
+    "filename": "PXL_20260813_150303253.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "63fef2e3a76c14559c419b9e63c4fa3b62410c1c3bca7ecf47f117df769c2153",
+    "pixel_sha256": "8dc1b2eaf2ae1d90fb6cf020475d7a86f7eb2a9a701f50fb7cb625d40c153eab",
+    "dhash": "2d2fe0a3e6f6d333",
+    "object_count": 2
+  },
+  {
+    "task_id": 105,
+    "annotation_id": 90,
+    "filename": "PXL_20260813_150304364.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "a7d005180925eb146e0c722ec74e68047f2cd267e4dd89aac3a4f90792689db5",
+    "pixel_sha256": "0fb798d9c54cdcae041722eaedf7923a53671440c1cb0f63aae4a8467dff399e",
+    "dhash": "07c600011298aa8e",
+    "object_count": 2
+  },
+  {
+    "task_id": 106,
+    "annotation_id": 91,
+    "filename": "PXL_20260813_150309635.MP.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "0b30540548caa042d6b3754081bf1cac7aa04652d04ada2ad553b81a7829514d",
+    "pixel_sha256": "d8dfc86078655543fc7e119e9c1a0f3cdd943dec5c75efbda83a42d2f60d9525",
+    "dhash": "d8627c797fdcd1d9",
+    "object_count": 2
+  },
+  {
+    "task_id": 107,
+    "annotation_id": 92,
+    "filename": "PXL_20260813_150310128.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "9d8bf131fdccd1a9494e41baf6d6d18fbb9bd4299f8d8f35c5da3e66e80c17fc",
+    "pixel_sha256": "b6e9f412c2106e650a28c2331640480488b117d4d53bda3fbe4287e613c11c59",
+    "dhash": "4ce16e6c7bd5b5b1",
+    "object_count": 2
+  },
+  {
+    "task_id": 108,
+    "annotation_id": 93,
+    "filename": "PXL_20260813_150310774.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "8aa1b1cb13d49cfe68a23bd3714bd4266fcee0cd9ee6aecc995369039e86d495",
+    "pixel_sha256": "143f0fa8a19541c16ec76728c5acb7227d091c12662c93f73fd1416afd2db44a",
+    "dhash": "80c6bcb9e47eeb63",
+    "object_count": 2
+  },
+  {
+    "task_id": 109,
+    "annotation_id": 94,
+    "filename": "PXL_20260813_150315438.MP.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "696718ed5fb921b4246088178c793627d4ea94df11901b40d8a35ed27ffedfa1",
+    "pixel_sha256": "3154adcf00a0050c9200ac57dc9c40cd1d2781e675ec2655e43c27f7fb4cd0d9",
+    "dhash": "408f16cf7bf5dada",
+    "object_count": 2
+  },
+  {
+    "task_id": 110,
+    "annotation_id": 95,
+    "filename": "PXL_20260813_150316485.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "c3d1db7541d03cc69fb279e15b9291e59052e936c4e3de32e76f8dafaea36b65",
+    "pixel_sha256": "f3459e4157237c906a3dad55ed2d38c8e3aadef41b09f78a8c2e940d2a36a285",
+    "dhash": "002fd31687f3b5f1",
+    "object_count": 2
+  },
+  {
+    "task_id": 111,
+    "annotation_id": 96,
+    "filename": "PXL_20260813_150317491.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "9696e0920c4369dae516606b10588d0ed4f61f6634a4bc69bec5f97856296563",
+    "pixel_sha256": "c4e65495f009ce76e76ed141cb7eade776e68ea19dff072d975debd36091000a",
+    "dhash": "059d9327eb3af6bb",
+    "object_count": 2
+  },
+  {
+    "task_id": 112,
+    "annotation_id": 97,
+    "filename": "PXL_20260813_150318237.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "509ef865034347ea4df11a840510ec109422c67dd11b71f75f71be81f6d9987b",
+    "pixel_sha256": "4b124bdffddbb0c2621f2ba035ff48571582867a4efc99d21832fdf471b8cad3",
+    "dhash": "b0236bf8e979b6b9",
+    "object_count": 2
+  },
+  {
+    "task_id": 113,
+    "annotation_id": 98,
+    "filename": "PXL_20260813_150319177.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "1d67bdb2d0b419611c4e59b6f6cfe8c8553765ed37b8c0a4d9b72ed54dff3d35",
+    "pixel_sha256": "e01f0c41634e6fe0163fb20851b57aac15726b7c2cf192c0ed611fd8e93436ea",
+    "dhash": "173c09e0c9fa2673",
+    "object_count": 2
+  },
+  {
+    "task_id": 114,
+    "annotation_id": 99,
+    "filename": "PXL_20260813_150320163.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "b2c6b094b742b29db212f44af183e29f15ae3fc6d087c724e2d51f427cf381b1",
+    "pixel_sha256": "4bce484b6b44b3d572eeee0995abbdccb3da0188cf30f377679a7ce259f23902",
+    "dhash": "f084f6f4cb5c939a",
+    "object_count": 2
+  },
+  {
+    "task_id": 115,
+    "annotation_id": 100,
+    "filename": "PXL_20260813_150321188.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "09e10d6f6c58010ae233fc9262e8f5b93ab65aca4f786f2e7eb74da0843ecca0",
+    "pixel_sha256": "8f069678c7715ee9109fa311b83c135f8090cd1b1cf24269146952706616b079",
+    "dhash": "ccc026776b62cf68",
+    "object_count": 2
+  },
+  {
+    "task_id": 116,
+    "annotation_id": 101,
+    "filename": "PXL_20260813_150322059.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "87442ecb51870d79405edf9c85c761fa6f84f5d36f25bf262c302fbb3c991159",
+    "pixel_sha256": "90c7660ce3a88dc2c12d0b0c1280ca850570c878a682251518a9c858b1b9ae42",
+    "dhash": "764963259b2bafce",
+    "object_count": 2
+  },
+  {
+    "task_id": 117,
+    "annotation_id": 102,
+    "filename": "PXL_20260813_150322779.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "f687bb032a23435663c44708de23600c94eee9c212199dc73bab1d8e214da9ce",
+    "pixel_sha256": "7bb6193b653462f3aa05e9607c68b632ee88802dda1de5a5dcc31176fffc3340",
+    "dhash": "b30600022d69268f",
+    "object_count": 2
+  },
+  {
+    "task_id": 118,
+    "annotation_id": 103,
+    "filename": "PXL_20260813_150324239.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "8ba1440b5535f89ea1d9a510f34073c82c9a660830a59cf7ee18d7d9908e007c",
+    "pixel_sha256": "dcb57244d5fb7f863fa7086063512e750482c53fa7b60ecb4587ee7aa7932af9",
+    "dhash": "0bf946d6db3ade9a",
+    "object_count": 2
+  },
+  {
+    "task_id": 119,
+    "annotation_id": 104,
+    "filename": "PXL_20260813_150329225.MP.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "04512abc5f51d3103f55d31821d8dad5c589f3fbdc2cd7510171d52b979c78a2",
+    "pixel_sha256": "744786a3b66538593dde2db7f65c802bb633de081855c5db4ac66df711ec22a4",
+    "dhash": "b4a763e419935313",
+    "object_count": 2
+  },
+  {
+    "task_id": 120,
+    "annotation_id": 105,
+    "filename": "PXL_20260813_150330111.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "144e8200e81e53730f402701867c88356ec629e1491f85cbd74dd5c85cd04b52",
+    "pixel_sha256": "d0350d365012a2897fe05af09dc6b014c227dae79a683a0b6d0ad71d1265a239",
+    "dhash": "1e6f6b653b19f0b1",
+    "object_count": 2
+  },
+  {
+    "task_id": 121,
+    "annotation_id": 106,
+    "filename": "PXL_20260813_150331328.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "2909be8755ad3a6028cad573fac1e9f8bb7901375fbe9828ff0674e97f9ebb98",
+    "pixel_sha256": "1d8bec5b1e5c6b3640c22fdd1351a1d504833ab15deaa3a718ac4d2e6036895c",
+    "dhash": "7fbb995a3b33e4a0",
+    "object_count": 2
+  },
+  {
+    "task_id": 122,
+    "annotation_id": 107,
+    "filename": "PXL_20260813_150332109.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "ec0f30a489e5918d550a01062e68d90e529a00b02d828601c615656df2280f24",
+    "pixel_sha256": "216975546641f47184a5229488fd798607115cd767b6b470e345acca3fd7f03b",
+    "dhash": "ff3a2c8dbe3364b0",
+    "object_count": 2
+  },
+  {
+    "task_id": 123,
+    "annotation_id": 108,
+    "filename": "PXL_20260813_150332775.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "1d4d030a506717afa8fad987a497fdb675670c213bcb00ebf209949ab74557ab",
+    "pixel_sha256": "3c8b0f4ccbbd0fd465bd97e95556e2d45ba0fa943aab852450919b63fcbdb2ca",
+    "dhash": "bb6bae73b73b35b4",
+    "object_count": 2
+  },
+  {
+    "task_id": 124,
+    "annotation_id": 109,
+    "filename": "PXL_20260813_150333663.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "f41014a74495d22e9071c081342a8b340579ed045ec65840d867c17570474dd2",
+    "pixel_sha256": "5b5792a8b811070c87824555a648d0f5ae1ff9bcc01788f0e1329bb407ad6266",
+    "dhash": "c4721271672a2b64",
+    "object_count": 2
+  },
+  {
+    "task_id": 125,
+    "annotation_id": 110,
+    "filename": "PXL_20260813_150334493.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "7cfd0937dfc997c77d7293b2cb67af19ab73bfb5c2155dd204b1c83efcd9e133",
+    "pixel_sha256": "28ac1a127b13877468a904ab587808b2463770cb213f6148eefbe962bf1a7633",
+    "dhash": "cfe0f0e3bf2d21e8",
+    "object_count": 3
+  },
+  {
+    "task_id": 126,
+    "annotation_id": 111,
+    "filename": "PXL_20260813_150353870.MP.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "40c5cb9af2933b970c2e3a4392c302736f773130846390893444b5e73fa815fd",
+    "pixel_sha256": "33f900977ac5c2e5783f87c47f5a3532405b634cf5f0fba751924e3c99c381e6",
+    "dhash": "ff31f16f1fe7f1fa",
+    "object_count": 2
+  },
+  {
+    "task_id": 127,
+    "annotation_id": 112,
+    "filename": "PXL_20260813_150354763.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "387a54e2730e2726dda1cc93d14122cc7f571a5d70472ba1c8cfe4d17edcb325",
+    "pixel_sha256": "82fc9a5bd4c7f8363211e2790fd108f394eb44f9cab94c62e3053fb8f7f1b469",
+    "dhash": "48c09a879998879c",
+    "object_count": 3
+  },
+  {
+    "task_id": 128,
+    "annotation_id": 113,
+    "filename": "PXL_20260813_150355562.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "7bb19609360506a47b1888b6df03e2ee6c4e7738694f2a1675a8d0a9578e632c",
+    "pixel_sha256": "7cad47074b592c7a60abb079ecc72f98739da8c836f8fa131b26b2eefb3afabb",
+    "dhash": "2080b88799988798",
+    "object_count": 3
+  },
+  {
+    "task_id": 129,
+    "annotation_id": 114,
+    "filename": "PXL_20260813_150357200.MP.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "4714006f508fd8271fab2723a5df4f8ef0915158677a63a3899d6a164473becd",
+    "pixel_sha256": "20636021887e19cc195f699aaf0a798e07681908548da36da90191cdc09fa640",
+    "dhash": "e1e78d67cded61ed",
+    "object_count": 3
+  },
+  {
+    "task_id": 130,
+    "annotation_id": 115,
+    "filename": "PXL_20260813_150358208.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "ca954bb7e074eab28d375a382858344b9e1ab836fc678d06f2d07bbfc9ff9b74",
+    "pixel_sha256": "1a8f6c108590be05382c284f70918e8e893afc98d7ae0d0eb74783817ef07465",
+    "dhash": "f8773ecf8dd8dfd7",
+    "object_count": 3
+  },
+  {
+    "task_id": 131,
+    "annotation_id": 116,
+    "filename": "PXL_20260813_150359360.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "3a95a36fa3df42646c61e395f8e7174ba2cbfb75c1b5ff105dbbb2441e4bf22d",
+    "pixel_sha256": "6a2e3658c14f3e962b04cf5ee71363367f293ef5f16d3f58790ff7165a9af071",
+    "dhash": "3ebf1f8f9fb19aa5",
+    "object_count": 3
+  },
+  {
+    "task_id": 132,
+    "annotation_id": 117,
+    "filename": "PXL_20260813_150400119.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "b9df1bedcd856f956e7e24c748f60c61cbf94f3e1b8575d54b766efa71001ada",
+    "pixel_sha256": "a8f1705abaa25991adf634d8a8b8499a735f8ae764474944c61d7bffc7634aa6",
+    "dhash": "ffff7e391fc7e8d6",
+    "object_count": 2
+  },
+  {
+    "task_id": 133,
+    "annotation_id": 118,
+    "filename": "PXL_20260813_150403242.MP.jpg",
+    "scene_group": "city_center_training",
+    "split": "train",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "d0c3b9e7ef5f2a2f33b1289c7dbd06ceb3f025b08d035e1ed5efa82f11e86f47",
+    "pixel_sha256": "2e3ec0c34d4de82a54f3a014cfb22ad1f2e9198c8759949f9b2b377c2a355332",
+    "dhash": "6ded21e0a1a58ddd",
+    "object_count": 1
+  },
+  {
+    "task_id": 134,
+    "annotation_id": 119,
+    "filename": "PXL_20260816_150931640.MP.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "85baa1e8151c44bcf7576f2facb65143de63096e73735622653a43b05991bdba",
+    "pixel_sha256": "e6e5e8ac7cdba0d7cc46c402369a84890f357659ef68a77123bbb682e86d1506",
+    "dhash": "40562621e9ec7c3c",
+    "object_count": 2
+  },
+  {
+    "task_id": 135,
+    "annotation_id": 120,
+    "filename": "PXL_20260816_150932415.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "ca30515cd022d8afbdc9e1d79f0bef7010fc609deb45cea5ca8c880a9f56c2f4",
+    "pixel_sha256": "5711bd02062cc4358f898e356a0582f56b4a0d8b4ef9dc0ac29ecd090de02286",
+    "dhash": "d7366e645050d8d9",
+    "object_count": 2
+  },
+  {
+    "task_id": 136,
+    "annotation_id": 121,
+    "filename": "PXL_20260816_150933128.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "c0ba3ed9f84cfc8dd957732aed7b16686a83e11c4f671f187a623163b5fb5571",
+    "pixel_sha256": "e82e05f1b9594a2f94225877d85e87b787fcd5bbc8da675c2a99499ca40f8326",
+    "dhash": "3b276002d058dc68",
+    "object_count": 2
+  },
+  {
+    "task_id": 137,
+    "annotation_id": 122,
+    "filename": "PXL_20260816_150933939.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "d71ea8acfcc238b0d1ce321c81503d4132a86ba949f77fb90dd91ced8358c5df",
+    "pixel_sha256": "e7d613304275141d42dab00aac78e16077addbafa2956590e121db360457c331",
+    "dhash": "cfd6c004909098d8",
+    "object_count": 2
+  },
+  {
+    "task_id": 138,
+    "annotation_id": 123,
+    "filename": "PXL_20260816_150935453.MP.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "8d6124b823e0641b3f09cd8fd46ecec776beec366de19a3f46866b0924a18080",
+    "pixel_sha256": "86603d8fadaa66038c018587582b7ba93dfa51e9c017fb7a770690174902c9cb",
+    "dhash": "281a97cf3e3a09e0",
+    "object_count": 2
+  },
+  {
+    "task_id": 139,
+    "annotation_id": 124,
+    "filename": "PXL_20260816_150936141.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "97c1dfdaef7fc56cfdee9ce78560685292eb4335cc94f0bfd1393f3e5c25908e",
+    "pixel_sha256": "2fbd9358fd2a652a5a12d498cdaff158e0c6eb0b05e6ba0a6d5201f0a38a04d3",
+    "dhash": "d83f87e61d1d0dc0",
+    "object_count": 2
+  },
+  {
+    "task_id": 140,
+    "annotation_id": 125,
+    "filename": "PXL_20260816_150937080.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "c6d7330d919dc67ac241c658815bde79dacce0bf5bc81b2933a73f3eb0a75061",
+    "pixel_sha256": "5942ff8b9ae0a7e46c98653e822ddf530e7f26fc6137c084690a03bc1c5cd96c",
+    "dhash": "6f2786cf1d1f8500",
+    "object_count": 2
+  },
+  {
+    "task_id": 141,
+    "annotation_id": 126,
+    "filename": "PXL_20260816_150937867.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "36a25c1d3a2418d4d4b6d868bb950a58264275b7a1959bc1fd8c4d329e1f49c0",
+    "pixel_sha256": "6d1735285e89b6c2d4bdaed331300d010fdaf6ca7281cf8371a64fb43522780b",
+    "dhash": "3f2b098d3a3a1ba0",
+    "object_count": 2
+  },
+  {
+    "task_id": 142,
+    "annotation_id": 127,
+    "filename": "PXL_20260816_150938505.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "8ba3b883053cdc0ea84174760874266b686b8ef9134a396f7a5a0a5e834c203c",
+    "pixel_sha256": "7eb85da636a8cb5c1ba5e91d6f545aaac7dece5612e0dea5a5e0a0bf176f8283",
+    "dhash": "7f7f6d0dde1e2d0f",
+    "object_count": 2
+  },
+  {
+    "task_id": 143,
+    "annotation_id": 128,
+    "filename": "PXL_20260816_150939148.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "954c70cddb4dc0b28ff19f4a4e76f5614388d613f60356be7de2a3ae8e1c2b03",
+    "pixel_sha256": "e00e3fb2397057ddfc505ae4e8c3e47d999c43b3719c0e8d9dd5a34092a42153",
+    "dhash": "ebd8890b0e0e8f41",
+    "object_count": 2
+  },
+  {
+    "task_id": 144,
+    "annotation_id": 129,
+    "filename": "PXL_20260816_150939678.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "26b41518ba19cb1e53f993a93291426dc5b1c383ae94c11941cf817d9f09cf91",
+    "pixel_sha256": "3b710059bd53eb665b78cbd43b9cc8e439a1525094c83fdfa4850886eea83575",
+    "dhash": "4f63424f9e1c2d07",
+    "object_count": 2
+  },
+  {
+    "task_id": 145,
+    "annotation_id": 130,
+    "filename": "PXL_20260816_150941396.MP.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "df383a70cace5a93313c0969dd7be2b9e748e7835f520fe37d077f61a04b3a0d",
+    "pixel_sha256": "bd99405edabbbdaad857e1d51fdce8b23f052cb10102b99e051db67e21da6bf8",
+    "dhash": "e7081f9b170f0e06",
+    "object_count": 2
+  },
+  {
+    "task_id": 146,
+    "annotation_id": 131,
+    "filename": "PXL_20260816_150942181.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "0ea96874aeb85424613d13fa1a0c5c17037765133b5ff2d6004c820314b3efe5",
+    "pixel_sha256": "d964aacd7d1a2d6c9f407ad500e461b3c6746b393201d3f4327280125d4ff382",
+    "dhash": "f2c00f36a7112162",
+    "object_count": 2
+  },
+  {
+    "task_id": 147,
+    "annotation_id": 132,
+    "filename": "PXL_20260816_150944073.MP.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "ccbaf655a70695724e0fc37d30e768b82b2eba6e788978a7988388c1344f552a",
+    "pixel_sha256": "34d4342cddb9b7f5154655172fc5833c2243b4e9dc1cf0dc9ca5fa823939b6ec",
+    "dhash": "e0831c6723716130",
+    "object_count": 2
+  },
+  {
+    "task_id": 148,
+    "annotation_id": 133,
+    "filename": "PXL_20260816_150951802.MP.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "0a75d0fa392cacf714acd0ac7e5f6effb50aacf849b0b35d4fac267228b3ab4a",
+    "pixel_sha256": "e4d081997772992851cadea9d6a3b02bba623c21f11fefcba65f7fdfe5cee289",
+    "dhash": "19011220787c5e6e",
+    "object_count": 2
+  },
+  {
+    "task_id": 149,
+    "annotation_id": 134,
+    "filename": "PXL_20260816_151005872.MP.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "bfbd7d1af11db3c87934eb2d6e007c3a497926b496b8363528097f2f54d61931",
+    "pixel_sha256": "0a601225cbbbd0ba00ae5332f99c6d1c02bf36d58b3a25712970043a4b2cb3cd",
+    "dhash": "2006fe003f0e3e1c",
+    "object_count": 2
+  },
+  {
+    "task_id": 150,
+    "annotation_id": 135,
+    "filename": "PXL_20260816_151006569.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "609c2e33f4c34221fa732a25bd02e4d7b2146c6fa5e30c5f03dddd9385d0159d",
+    "pixel_sha256": "4e95cdfe6dd7c1e2203c9306ead805f2f8908e53bd24843eb83bba5342259937",
+    "dhash": "1ff08fa1afc3c331",
+    "object_count": 2
+  },
+  {
+    "task_id": 151,
+    "annotation_id": 136,
+    "filename": "PXL_20260816_151007268.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "1d39c0ac246d663fd04e8ee64290772e48d8647fddd55fe01697e46ccf05fd96",
+    "pixel_sha256": "9acdde8e6ea26668f70e90ed4f8a24a0110fd1099b671e0a1fcb8552963b09c0",
+    "dhash": "07ff86178f0f1e87",
+    "object_count": 2
+  },
+  {
+    "task_id": 152,
+    "annotation_id": 137,
+    "filename": "PXL_20260816_151007997.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "5fa6e0f63c78087ff567634b9f3079b8d100cfef1927b7d1791ba9aea2b92194",
+    "pixel_sha256": "92e05b44239d352ee1aa11d78c78fedef87a31fee68e68e055fcbdf5a9be683f",
+    "dhash": "1ff4230b8f2f1787",
+    "object_count": 2
+  },
+  {
+    "task_id": 153,
+    "annotation_id": 76,
+    "filename": "PXL_20260816_151008851.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "4eb2367f764e4d464c5cdecf6cc385f2ed78ac4288a16ba933c6f3f13967d90d",
+    "pixel_sha256": "ce98b6f25823f17dfada59027ba9e4b4fab9daf95608a6420555315d4c5055ea",
+    "dhash": "a7a691871f6f0f17",
+    "object_count": 2
+  },
+  {
+    "task_id": 154,
+    "annotation_id": 77,
+    "filename": "PXL_20260816_151010135.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "381b43477f1772f1d4ffde07adc3b2bbeede1e7ee8903a27d94c05d90fbe3fa4",
+    "pixel_sha256": "df24cd4d7b0b0afa9ba82a0d8142d8f7b3f475d5e50ded0b182c63d26b927022",
+    "dhash": "7ce33f4157c3c5c1",
+    "object_count": 2
+  },
+  {
+    "task_id": 155,
+    "annotation_id": 138,
+    "filename": "PXL_20260816_151011062.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "a2f74e6e5447a613941952f6b978a08487b7a7cbe650e6a7e05f0f060e4c150c",
+    "pixel_sha256": "a2ddfeecfbdb33c8ff5fea06db2f0deff3e6cbe8cd22271b9f3f6a7b3217849b",
+    "dhash": "0f7ec7036e870b81",
+    "object_count": 2
+  },
+  {
+    "task_id": 156,
+    "annotation_id": 139,
+    "filename": "PXL_20260816_151011886.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "c75c20e7b1de6ac2f2aaec76feddb17e01d4d7488d3b3f57dddf148b2f4d9be7",
+    "pixel_sha256": "57982d369928d772fe264fc9f6a4a65b0b6181254736ad684d941d2e2de5ff96",
+    "dhash": "073f8f031f071707",
+    "object_count": 2
+  },
+  {
+    "task_id": 157,
+    "annotation_id": 140,
+    "filename": "PXL_20260816_151012734.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "617780a5af87568d12db301039f2d2d40e70e1f261c6cb1ded4079275c738933",
+    "pixel_sha256": "dc260ae3813e2ff3f27d58cd88b722d2dfd9648b5c0e626723f731a7e6dd3b27",
+    "dhash": "7ca1344b5f070b83",
+    "object_count": 2
+  },
+  {
+    "task_id": 158,
+    "annotation_id": 141,
+    "filename": "PXL_20260816_151013545.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "08b37ac47ef4acdcd3780a4fefa1bf1725cf340b148f402f517576935fc3e974",
+    "pixel_sha256": "e880a8de1c6bd4f78f6f40a32674abc84c960abdff69e975511b815b85114e7c",
+    "dhash": "e007b3435f970b83",
+    "object_count": 2
+  },
+  {
+    "task_id": 159,
+    "annotation_id": 142,
+    "filename": "PXL_20260816_151014294.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "495cbf3b2c161dcfbbe628ac86c9a72877b8c6ef7ebc8673caed37f71a0840f5",
+    "pixel_sha256": "58ee4ae336be648bd8f6846dba72b677af2c2adfaa95c85dc04900922b30a7b1",
+    "dhash": "e123504f3b8385c1",
+    "object_count": 2
+  },
+  {
+    "task_id": 160,
+    "annotation_id": 143,
+    "filename": "PXL_20260816_151014955.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "ebdff9c361c01266453116e621c13f4c2b1f9a877bd36dcb3671392ce50c6d1a",
+    "pixel_sha256": "77758edb07e732cd854d8a90cbbde7d82e91a243ddac0423846a884ab2949fc0",
+    "dhash": "ccb183cf7d91c6c0",
+    "object_count": 1
+  },
+  {
+    "task_id": 161,
+    "annotation_id": 144,
+    "filename": "PXL_20260816_151017650.MP.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "2018dec043a96b95eb886369a15042521f111a9263b2a210d1f3369214869117",
+    "pixel_sha256": "0955ccc16ffb4a61212c8d87a06dcd89f12bd88a39a208d0177c573e73f56b61",
+    "dhash": "5f5fa30747772707",
+    "object_count": 2
+  },
+  {
+    "task_id": 162,
+    "annotation_id": 145,
+    "filename": "PXL_20260816_151018369.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "768b9094625ddc53988cef17e499f909f82d50fe06a1d93689434ba81daf4d21",
+    "pixel_sha256": "799fce2a067f691981a1aeee81e169549d1b52162324641ed1846e1440d86382",
+    "dhash": "df5f030767736783",
+    "object_count": 2
+  },
+  {
+    "task_id": 163,
+    "annotation_id": 146,
+    "filename": "PXL_20260816_151019016.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "1cc2cfd5f44b5f4c8297297037b0a7a7809b640047a5d988f288fa58a10a5700",
+    "pixel_sha256": "e788a18d80d6dd520ca267e1e6ecb405da62abd9ff0e892b5e591ca5c0693e96",
+    "dhash": "4f6f2f17266373b7",
+    "object_count": 2
+  },
+  {
+    "task_id": 164,
+    "annotation_id": 147,
+    "filename": "PXL_20260816_151019770.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "7d1b2242431796a95eba10cd65fdac6f4f7b781b33e83caa5378756571afbd53",
+    "pixel_sha256": "719a0a81004db779ae0e8b17692352c07daecca511eea6167b98eeec3d2b14c2",
+    "dhash": "4f6f0f1f66737797",
+    "object_count": 2
+  },
+  {
+    "task_id": 165,
+    "annotation_id": 148,
+    "filename": "PXL_20260816_151024644.MP.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "8bd951e652fe0ebea58663d47692a52defab0eecf2e7e62dc9708336d07461a0",
+    "pixel_sha256": "95e9319b90a82d53894f58a1338025bb6271ce04e6248a679f01821b874ddba8",
+    "dhash": "1b23e4e8386c8c6d",
+    "object_count": 2
+  },
+  {
+    "task_id": 166,
+    "annotation_id": 149,
+    "filename": "PXL_20260816_151025128.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "0458f60343f75388f47341ace84f66bde1905f699807dda543526e27494dea14",
+    "pixel_sha256": "8b4f7c33bf366901b25150e3f083e34a972aa361f0bdb6fd68f84a6db043bd7e",
+    "dhash": "e2ca8681b3819838",
+    "object_count": 2
+  },
+  {
+    "task_id": 167,
+    "annotation_id": 150,
+    "filename": "PXL_20260816_151028726.MP.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "3d2c02c4f817b7f40729b02ab4d470d3293e299da136a28f40ae4ba4bd2a809d",
+    "pixel_sha256": "cdd8564f62f85ae7c0e28b7ba390a4e4155f7f67728491602f9c56eb12b54949",
+    "dhash": "000004000651c91b",
+    "object_count": 2
+  },
+  {
+    "task_id": 168,
+    "annotation_id": 151,
+    "filename": "PXL_20260816_151029319.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "368efe8f29dcb0009a3f880fff1bb1e8c63d7024a2b23f1d2276f70beb8e49d9",
+    "pixel_sha256": "e035750b61fbda71bc638cc2b8f27c54b409fb3d9edefe23f236f48f0f4bc701",
+    "dhash": "000100001bc3937e",
+    "object_count": 2
+  },
+  {
+    "task_id": 169,
+    "annotation_id": 152,
+    "filename": "PXL_20260816_151029766.jpg",
+    "scene_group": "yellow_crossing_held_out",
+    "split": "val",
+    "original_size": [
+      3072,
+      4080
+    ],
+    "processed_size": [
+      1446,
+      1920
+    ],
+    "source_sha256": "654762441e0185094f2d2c630a4263f0497848d70fdb010fd0eb723b8f0b03c6",
+    "pixel_sha256": "c1a1e2484f2b8fae713eee8791449adb0d55eb5eb4af359895f2f4ab25824c15",
+    "dhash": "0001000411c11bff",
+    "object_count": 2
+  }
+]

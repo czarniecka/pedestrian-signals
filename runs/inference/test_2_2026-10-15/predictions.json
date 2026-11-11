@@ -1,0 +1,103 @@
+{
+  "weights": "C:\\Users\\mdroj\\PycharmProjects\\pedestrians_aid\\runs\\train\\manual_scene_split_v1_batch4\\weights\\best.pt",
+  "weights_sha256": "c75aff33093fae716d88758f7d1659a903b1f50d2971f2901408c9a0d68a9474",
+  "confidence_threshold": 0.25,
+  "image_size": 960,
+  "ground_truth_available": false,
+  "images": [
+    {
+      "filename": "img.png",
+      "source_sha256": "07fb1f50fd62668dd58c7f6d09e37cd3a0790080e3ecc878a6250eb13c1ad475",
+      "detections": [
+        {
+          "class": "traffic_light_red",
+          "confidence": 0.3584449291229248,
+          "xyxy": [
+            625.5018920898438,
+            543.1415405273438,
+            654.2376098632812,
+            590.0823364257812
+          ]
+        }
+      ],
+      "speed_ms": {
+        "preprocess": 51.27649999997175,
+        "inference": 30.52382500004569,
+        "postprocess": 12.12707499996668
+      }
+    },
+    {
+      "filename": "img_1.png",
+      "source_sha256": "76ad4eeb7e9a9fba0eca7114d941ac5902ea57a956f55413a060330273dcec54",
+      "detections": [
+        {
+          "class": "crosswalk",
+          "confidence": 0.3827805817127228,
+          "xyxy": [
+            0.0,
+            599.5619506835938,
+            1536.0,
+            1769.142822265625
+          ]
+        }
+      ],
+      "speed_ms": {
+        "preprocess": 51.27649999997175,
+        "inference": 30.52382500004569,
+        "postprocess": 12.12707499996668
+      }
+    },
+    {
+      "filename": "img_2.png",
+      "source_sha256": "d3b9c1c6522eec59cb42eb4451b70ff1412c0bd70ae5e45987c4efa39960bb46",
+      "detections": [
+        {
+          "class": "crosswalk",
+          "confidence": 0.7614009380340576,
+          "xyxy": [
+            0.0,
+            759.2539672851562,
+            1536.0,
+            1890.362060546875
+          ]
+        }
+      ],
+      "speed_ms": {
+        "preprocess": 51.27649999997175,
+        "inference": 30.52382500004569,
+        "postprocess": 12.12707499996668
+      }
+    },
+    {
+      "filename": "img_3.png",
+      "source_sha256": "e3c041c724511a93078ee4f1fcdb18c2e43f91a25665c5df498edbcaab8d8ff4",
+      "detections": [
+        {
+          "class": "crosswalk",
+          "confidence": 0.6854596138000488,
+          "xyxy": [
+            0.0,
+            742.57470703125,
+            1536.0,
+            1937.9488525390625
+          ]
+        },
+        {
+          "class": "traffic_light_red",
+          "confidence": 0.4174681305885315,
+          "xyxy": [
+            1022.0508422851562,
+            327.1004638671875,
+            1088.39697265625,
+            451.1310729980469
+          ]
+        }
+      ],
+      "speed_ms": {
+        "preprocess": 51.27649999997175,
+        "inference": 30.52382500004569,
+        "postprocess": 12.12707499996668
+      }
+    }
+  ]
+}

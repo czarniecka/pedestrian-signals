@@ -1,0 +1,10 @@
+# Separate Python 3.13 environment; original versions documented in docs/TRAINING_BASELINE.md
+ultralytics==8.4.143
+torch==2.9.0
+Pillow
+numpy
+PyYAML
+opencv-python
+pillow-heif
+requests
+tqdm

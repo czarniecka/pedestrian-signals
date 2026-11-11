@@ -1,0 +1,11 @@
+# IDs match the category attributes in label_studio.xml.
+# The training script resolves path relative to the project root.
+path: data/dataset
+train: images/train
+val: images/val
+names:
+  0: crosswalk
+  1: traffic_light_red
+  2: traffic_light_green
+  3: traffic_light_off
+  4: traffic_light_unknown

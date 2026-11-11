@@ -1,0 +1,12 @@
+<View>
+  <Header value="Crosswalks and pedestrian signals: bounding boxes"/>
+  <Header value="Signal: entire head without the pole. Crosswalk: all stripes in one box. Do not guess the state."/>
+  <Image name="image" value="$image" zoom="true" zoomControl="true"/>
+  <RectangleLabels name="label" toName="image">
+    <Label value="crosswalk" category="0" background="#2563EB" hotkey="1"/>
+    <Label value="traffic_light_red" category="1" background="#EF4444" hotkey="2"/>
+    <Label value="traffic_light_green" category="2" background="#22C55E" hotkey="3"/>
+    <Label value="traffic_light_off" category="3" background="#64748B" hotkey="4"/>
+    <Label value="traffic_light_unknown" category="4" background="#F59E0B" hotkey="5"/>
+  </RectangleLabels>
+</View>

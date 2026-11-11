@@ -1,0 +1,116 @@
+{
+  "source_project": "PNW",
+  "total_source_tasks": 169,
+  "completed_tasks": 152,
+  "selected_positive_images": 152,
+  "unannotated_or_skipped": 17,
+  "empty_completed_excluded": [],
+  "images": {
+    "train": 115,
+    "val": 37
+  },
+  "objects": {
+    "train": {
+      "crosswalk": 134,
+      "traffic_light_red": 50,
+      "traffic_light_green": 87,
+      "traffic_light_off": 10
+    },
+    "val": {
+      "traffic_light_red": 27,
+      "crosswalk": 37,
+      "traffic_light_green": 10,
+      "traffic_light_off": 2
+    }
+  },
+  "absent_classes": [
+    "traffic_light_unknown"
+  ],
+  "adjustments": [
+    {
+      "task_id": 15,
+      "box_id": "EkMUuIyxpW",
+      "action": "clipped_to_image"
+    },
+    {
+      "task_id": 17,
+      "box_id": "-nlgn6ja_x",
+      "action": "clipped_to_image"
+    },
+    {
+      "task_id": 44,
+      "box_id": "h9LQaCc4Nr",
+      "action": "clipped_to_image"
+    },
+    {
+      "task_id": 93,
+      "box_id": "GNaOxEQSTb",
+      "action": "clipped_to_image"
+    },
+    {
+      "task_id": 99,
+      "box_id": "IY4ausnR9o",
+      "action": "clipped_to_image"
+    }
+  ],
+  "closest_cross_split_dhash_pairs": [
+    [
+      15,
+      "PXL_20260813_150242822.jpg",
+      "PXL_20260816_151007268.jpg"
+    ],
+    [
+      17,
+      "IMG_9772.jpg",
+      "PXL_20260816_151029319.jpg"
+    ],
+    [
+      17,
+      "PXL_20260813_150242822.jpg",
+      "PXL_20260816_151011886.jpg"
+    ],
+    [
+      17,
+      "PXL_20260813_150244367.jpg",
+      "PXL_20260816_151007997.jpg"
+    ],
+    [
+      17,
+      "PXL_20260813_150253014.jpg",
+      "PXL_20260816_151011062.jpg"
+    ],
+    [
+      18,
+      "PXL_20260813_150225920.jpg",
+      "PXL_20260816_151029319.jpg"
+    ],
+    [
+      18,
+      "PXL_20260813_150243704.jpg",
+      "PXL_20260816_151007997.jpg"
+    ],
+    [
+      18,
+      "PXL_20260813_150244367.jpg",
+      "c9ea620c-56ff-4b5c-93f1-0c90c5b64c53.jpg"
+    ],
+    [
+      18,
+      "PXL_20260813_150304364.jpg",
+      "PXL_20260816_150933939.jpg"
+    ],
+    [
+      19,
+      "IMG_0983.jpg",
+      "PXL_20260816_151005872.MP.jpg"
+    ]
+  ],
+  "preprocessing": "RGB; longest side <=1920; preserve aspect; JPEG95; no crop, no EXIF rotation",
+  "split_policy": "Entire yellow-crossing location held out, including UUID view; city-center series kept together across cameras; no random frame split.",
+  "limitations": [
+    "Scene identity inferred from visual review and filenames, not GPS.",
+    "Validation covers only one held-out location and is not a broad generalization test.",
+    "Only positive images used at user request; false alarm rate on empty scenes is untested.",
+    "No separate final test set for this initial experiment."
+  ]
+}

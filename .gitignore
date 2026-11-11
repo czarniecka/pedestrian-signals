@@ -1,1 +1,19 @@
 .venv/
+
+# Local ML assets and environments
+.idea/
+.venv-*/
+.label-studio/
+__pycache__/
+*.py[cod]
+*.cache
+*.pt
+*.onnx
+*.engine
+archive/
+
+# Generated dataset configuration contains machine-specific paths
+runs/dataset_resolved.yaml
+# Version the baseline and trained checkpoints
+!weights/*.pt
+!runs/train/**/weights/*.pt

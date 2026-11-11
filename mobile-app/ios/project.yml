@@ -1,0 +1,28 @@
+name: ESPCamDrive
+options:
+  bundleIdPrefix: com.ola
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  ESPCamDrive:
+    type: application
+    platform: iOS
+    sources: [Sources]
+    info:
+      path: Sources/Info.plist
+      properties:
+        CFBundleDisplayName: ESP Cam Drive
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        NSLocalNetworkUsageDescription: "Aplikacja łączy się z kamerą ESP32-CAM w Twojej sieci WiFi."
+        UIBackgroundModes: [location]
+        NSLocationWhenInUseUsageDescription: "Lokalizacja jest używana tylko po to, by aplikacja mogła działać w tle i cyklicznie pobierać zdjęcia z kamery. Pozycja nie jest zapisywana ani wysyłana."
+        NSLocationAlwaysAndWhenInUseUsageDescription: "Lokalizacja jest używana tylko po to, by aplikacja mogła działać w tle i cyklicznie pobierać zdjęcia z kamery. Pozycja nie jest zapisywana ani wysyłana."
+        NSAppTransportSecurity:
+          NSAllowsArbitraryLoads: true   # kamera działa po zwykłym http
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ola.espcamdrive   # zmień na swój unikalny (i użyj tego samego w Google Cloud)
+        SWIFT_VERSION: "5.0"
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: ""                              # ustawisz w Xcode: Signing & Capabilities
