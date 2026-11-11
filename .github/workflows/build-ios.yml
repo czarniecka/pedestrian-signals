@@ -16,7 +16,7 @@ jobs:
       run:
         working-directory: mobile-app
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Install XcodeGen
         run: brew install xcodegen
@@ -37,7 +37,7 @@ jobs:
           cp -R build/Build/Products/Release-iphoneos/ESPCamDrive.app Payload/
           zip -qr ESPCamDrive.ipa Payload
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v5
         with:
           name: ESPCamDrive-ipa
           path: mobile-app/ESPCamDrive.ipa
