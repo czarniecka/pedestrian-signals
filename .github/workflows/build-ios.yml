@@ -6,11 +6,12 @@ on:
       - feature/mobile-app
     paths:
       - 'mobile-app/**'
+      - '.github/workflows/build-ios.yml'
   workflow_dispatch:
 
 jobs:
   build:
-    runs-on: macos-14
+    runs-on: macos-15
     defaults:
       run:
         working-directory: mobile-app
