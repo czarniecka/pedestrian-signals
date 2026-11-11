@@ -1,0 +1,42 @@
+name: Build iOS (unsigned ipa)
+
+on:
+  push:
+    branches:
+      - feature/mobile-app
+    paths:
+      - 'mobile-app/**'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-14
+    defaults:
+      run:
+        working-directory: mobile-app
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install XcodeGen
+        run: brew install xcodegen
+
+      - name: Generate Xcode project
+        run: xcodegen
+
+      - name: Build (unsigned)
+        run: |
+          xcodebuild -project ESPCamDrive.xcodeproj -scheme ESPCamDrive \
+            -configuration Release -sdk iphoneos -derivedDataPath build \
+            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" \
+            build
+
+      - name: Package .ipa
+        run: |
+          mkdir Payload
+          cp -R build/Build/Products/Release-iphoneos/ESPCamDrive.app Payload/
+          zip -qr ESPCamDrive.ipa Payload
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ESPCamDrive-ipa
+          path: mobile-app/ESPCamDrive.ipa
